@@ -1,0 +1,2939 @@
+2017-02-02T16:31:33.4318730Z TRACE:: Config.Get(): Configuration key not found. Key: data-directory - Using default value: ../../../Data/
+2017-02-02T16:31:33.4324370Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2017-02-02T16:31:33.4325220Z TRACE:: Engine.Main(): LEAN ALGORITHMIC TRADING ENGINE v2.2.0.2 Mode: DEBUG (64bit)
+2017-02-02T16:31:33.4325960Z TRACE:: Engine.Main(): Started 16:31
+2017-02-02T16:31:33.4359950Z TRACE:: Engine.Main(): Memory 145Mb-App  28Mb-Used  7887Mb-Total
+2017-02-02T16:31:33.4402140Z TRACE:: Config.GetValue(): job-project-id - Using default value: 0
+2017-02-02T16:31:33.7740410Z TRACE:: JobQueue.NextJob(): Selected QuantConnect.Algorithm.CSharp.dll
+2017-02-02T16:31:33.7852510Z TRACE:: Config.Get(): Configuration key not found. Key: history-provider - Using default value: SubscriptionDataReaderHistoryProvider
+2017-02-02T16:31:33.8132480Z TRACE:: Config.GetValue(): ignore-version-checks - Using default value: False
+2017-02-02T16:31:33.8216560Z TRACE:: Config.GetValue(): algorithm-manager-time-loop-maximum - Using default value: 10
+2017-02-02T16:31:33.8239950Z TRACE:: Config.Get(): Configuration key not found. Key: ironpython-location - Using default value: ../ironpython/Lib
+2017-02-02T16:31:33.8291710Z TRACE:: Loader.TryCreateILAlgorithm(): Loading only the algorithm assembly
+2017-02-02T16:31:33.8932630Z TRACE:: Loader.TryCreateILAlgorithm(): Loaded BasicTemplateAlgorithm
+2017-02-02T16:31:33.9443370Z TRACE:: Config.Get(): Configuration key not found. Key: security-data-feeds - Using default value: 
+2017-02-02T16:31:34.1110270Z TRACE:: BacktestingResultHandler(): Sample Period Set: 04.00
+2017-02-02T16:31:34.1120590Z TRACE:: Time.TradeableDates(): Security Count: 1
+2017-02-02T16:31:34.1145290Z TRACE:: Config.GetValue(): forward-console-messages - Using default value: True
+2017-02-02T16:31:34.1149520Z TRACE:: JOB HANDLERS: 
+2017-02-02T16:31:34.1150110Z TRACE::          DataFeed:     QuantConnect.Lean.Engine.DataFeeds.FileSystemDataFeed
+2017-02-02T16:31:34.1150460Z TRACE::          Setup:        QuantConnect.Lean.Engine.Setup.ConsoleSetupHandler
+2017-02-02T16:31:34.1150870Z TRACE::          RealTime:     QuantConnect.Lean.Engine.RealTime.BacktestingRealTimeHandler
+2017-02-02T16:31:34.1151180Z TRACE::          Results:      QuantConnect.Lean.Engine.Results.BacktestingResultHandler
+2017-02-02T16:31:34.1151430Z TRACE::          Transactions: QuantConnect.Lean.Engine.TransactionHandlers.BacktestingTransactionHandler
+2017-02-02T16:31:34.1151750Z TRACE::          Commands:     QuantConnect.Queues.EmptyCommandQueueHandler
+2017-02-02T16:31:34.1152040Z TRACE::          History Provider:     QuantConnect.Lean.Engine.HistoricalData.SubscriptionDataReaderHistoryProvider
+2017-02-02T16:31:34.1277150Z TRACE:: Config.GetValue(): send-via-api - Using default value: False
+2017-02-02T16:31:34.1284010Z TRACE:: Debug: Launching analysis for BasicTemplateAlgorithm with LEAN Engine v2.2.0.2
+2017-02-02T16:31:34.1444760Z TRACE:: AlgorithmManager.Run(): Begin DataStream - Start: 10/07/2013 00:00:00 Stop: 10/11/2013 23:59:59
+2017-02-02T16:31:34.1549970Z TRACE:: FileSystemDataFeed.GetEnumerator(): Begin: 10/07/2013 04:00:00 UTC
+2017-02-02T16:31:34.4024340Z TRACE:: Debug: Purchased Stock
+2017-02-02T16:31:38.6905980Z TRACE:: FileSystemDataFeed.Run(): Data Feed Completed at 10/11/2013 20:00:00 UTC
+2017-02-02T16:31:38.6908860Z TRACE:: AlgorithmManager.Run(): Firing On End Of Algorithm...
+2017-02-02T16:31:38.6911100Z TRACE:: Engine.Run(): Exiting Algorithm Manager
+2017-02-02T16:31:38.7740360Z TRACE:: Debug: Algorithm Id:(BasicTemplateAlgorithm) completed in 4.66 seconds at 25k data points per second. Processing total of 117,005 data points.
+2017-02-02T16:31:38.8394260Z TRACE:: STATISTICS:: Total Trades 1
+2017-02-02T16:31:38.8394900Z TRACE:: STATISTICS:: Average Win 0%
+2017-02-02T16:31:38.8395350Z TRACE:: STATISTICS:: Average Loss 0%
+2017-02-02T16:31:38.8395720Z TRACE:: STATISTICS:: Compounding Annual Return 264.956%
+2017-02-02T16:31:38.8396240Z TRACE:: STATISTICS:: Drawdown 2.200%
+2017-02-02T16:31:38.8396640Z TRACE:: STATISTICS:: Expectancy 0
+2017-02-02T16:31:38.8397030Z TRACE:: STATISTICS:: Net Profit 0%
+2017-02-02T16:31:38.8397390Z TRACE:: STATISTICS:: Sharpe Ratio 4.411
+2017-02-02T16:31:38.8397720Z TRACE:: STATISTICS:: Loss Rate 0%
+2017-02-02T16:31:38.8398070Z TRACE:: STATISTICS:: Win Rate 0%
+2017-02-02T16:31:38.8398430Z TRACE:: STATISTICS:: Profit-Loss Ratio 0
+2017-02-02T16:31:38.8398810Z TRACE:: STATISTICS:: Alpha 0.002
+2017-02-02T16:31:38.8399170Z TRACE:: STATISTICS:: Beta 1
+2017-02-02T16:31:38.8399540Z TRACE:: STATISTICS:: Annual Standard Deviation 0.193
+2017-02-02T16:31:38.8399830Z TRACE:: STATISTICS:: Annual Variance 0.037
+2017-02-02T16:31:38.8400120Z TRACE:: STATISTICS:: Information Ratio 6.816
+2017-02-02T16:31:38.8400410Z TRACE:: STATISTICS:: Tracking Error 0
+2017-02-02T16:31:38.8400740Z TRACE:: STATISTICS:: Treynor Ratio 0.851
+2017-02-02T16:31:38.8401020Z TRACE:: STATISTICS:: Total Fees $3.09
+2017-02-02T16:31:38.8401290Z TRACE:: BacktestingResultHandler.SendAnalysisResult(): Processed final packet
+2017-02-02T16:31:38.8406160Z TRACE:: FileSystemDataFeed.Exit(): Exit triggered.
+2017-02-02T16:31:38.8410340Z TRACE:: BrokerageTransactionHandler.Run(): Ending Thread...
+2017-02-02T16:31:38.8413390Z TRACE:: FileSystemDataFeed.Run(): Ending Thread... 
+2017-02-02T16:31:38.8418770Z TRACE:: StateCheck.Ping.Run(): Exited thread.
+2017-02-02T16:31:38.8745370Z TRACE:: Debug: Your log was successfully created and can be retrieved from: /lean/TestProject/bin/Debug/log.txt
+2017-02-02T16:31:38.8746760Z TRACE:: BacktestingResultHandler.Run(): Ending Thread...
+2017-02-02T16:31:38.9422970Z TRACE:: Waiting for threads to exit...
+2017-02-02T16:31:38.9432270Z TRACE:: Engine.Run(): Disconnecting from brokerage...
+2017-02-02T16:31:38.9433540Z TRACE:: Engine.Run(): Disposing of setup handler...
+2017-02-02T16:31:38.9434620Z TRACE:: Engine.Main(): Analysis Completed and Results Posted.
+2017-02-02T16:31:38.9435310Z TRACE:: FileSystemDataFeed.Exit(): Exit triggered.
+2017-02-02T16:31:42.0980270Z TRACE:: Engine.Main(): Packet removed from queue: BasicTemplateAlgorithm
+2017-02-02T17:10:17.2613230Z TRACE:: JobQueue.NextJob(): Selected QuantConnect.Algorithm.CSharp.dll
+2017-02-02T17:10:17.2726280Z TRACE:: Config.Get(): Configuration key not found. Key: history-provider - Using default value: SubscriptionDataReaderHistoryProvider
+2017-02-02T17:10:17.2807620Z TRACE:: Config.GetValue(): algorithm-manager-time-loop-maximum - Using default value: 10
+2017-02-02T17:10:17.2832070Z TRACE:: Config.Get(): Configuration key not found. Key: ironpython-location - Using default value: ../ironpython/Lib
+2017-02-02T17:10:17.2894900Z TRACE:: Loader.TryCreateILAlgorithm(): Loading only the algorithm assembly
+2017-02-02T17:10:17.3611330Z TRACE:: Loader.TryCreateILAlgorithm(): Loaded BasicTemplateAlgorithm
+2017-02-02T17:10:17.4058820Z TRACE:: Config.Get(): Configuration key not found. Key: security-data-feeds - Using default value: 
+2017-02-02T17:10:17.5548340Z TRACE:: BacktestingResultHandler(): Sample Period Set: 04.00
+2017-02-02T17:10:17.5556840Z TRACE:: Time.TradeableDates(): Security Count: 1
+2017-02-02T17:10:17.5579350Z TRACE:: Config.GetValue(): forward-console-messages - Using default value: True
+2017-02-02T17:10:17.5582550Z TRACE:: JOB HANDLERS: 
+2017-02-02T17:10:17.5582970Z TRACE::          DataFeed:     QuantConnect.Lean.Engine.DataFeeds.FileSystemDataFeed
+2017-02-02T17:10:17.5583260Z TRACE::          Setup:        QuantConnect.Lean.Engine.Setup.ConsoleSetupHandler
+2017-02-02T17:10:17.5583520Z TRACE::          RealTime:     QuantConnect.Lean.Engine.RealTime.BacktestingRealTimeHandler
+2017-02-02T17:10:17.5583780Z TRACE::          Results:      QuantConnect.Lean.Engine.Results.BacktestingResultHandler
+2017-02-02T17:10:17.5584030Z TRACE::          Transactions: QuantConnect.Lean.Engine.TransactionHandlers.BacktestingTransactionHandler
+2017-02-02T17:10:17.5584280Z TRACE::          Commands:     QuantConnect.Queues.EmptyCommandQueueHandler
+2017-02-02T17:10:17.5584540Z TRACE::          History Provider:     QuantConnect.Lean.Engine.HistoricalData.SubscriptionDataReaderHistoryProvider
+2017-02-02T17:10:17.5866360Z TRACE:: AlgorithmManager.Run(): Begin DataStream - Start: 10/07/2013 00:00:00 Stop: 10/11/2013 23:59:59
+2017-02-02T17:10:17.5880310Z TRACE:: Config.GetValue(): send-via-api - Using default value: False
+2017-02-02T17:10:17.5886150Z TRACE:: Debug: Launching analysis for BasicTemplateAlgorithm with LEAN Engine v2.2.0.2
+2017-02-02T17:10:17.5969680Z TRACE:: FileSystemDataFeed.GetEnumerator(): Begin: 10/07/2013 04:00:00 UTC
+2017-02-02T17:10:17.8474370Z TRACE:: Debug: Purchased Stock
+2017-02-02T17:10:22.0718830Z TRACE:: FileSystemDataFeed.Run(): Data Feed Completed at 10/11/2013 20:00:00 UTC
+2017-02-02T17:10:22.0722500Z TRACE:: AlgorithmManager.Run(): Firing On End Of Algorithm...
+2017-02-02T17:10:22.0724720Z TRACE:: Engine.Run(): Exiting Algorithm Manager
+2017-02-02T17:10:22.1953370Z TRACE:: Debug: Algorithm Id:(BasicTemplateAlgorithm) completed in 4.59 seconds at 25k data points per second. Processing total of 117,005 data points.
+2017-02-02T17:10:22.2249180Z TRACE:: STATISTICS:: Total Trades 1
+2017-02-02T17:10:22.2249760Z TRACE:: STATISTICS:: Average Win 0%
+2017-02-02T17:10:22.2250120Z TRACE:: STATISTICS:: Average Loss 0%
+2017-02-02T17:10:22.2250490Z TRACE:: STATISTICS:: Compounding Annual Return 264.956%
+2017-02-02T17:10:22.2250860Z TRACE:: STATISTICS:: Drawdown 2.200%
+2017-02-02T17:10:22.2251120Z TRACE:: STATISTICS:: Expectancy 0
+2017-02-02T17:10:22.2251400Z TRACE:: STATISTICS:: Net Profit 0%
+2017-02-02T17:10:22.2251730Z TRACE:: STATISTICS:: Sharpe Ratio 4.411
+2017-02-02T17:10:22.2252050Z TRACE:: STATISTICS:: Loss Rate 0%
+2017-02-02T17:10:22.2252400Z TRACE:: STATISTICS:: Win Rate 0%
+2017-02-02T17:10:22.2252650Z TRACE:: STATISTICS:: Profit-Loss Ratio 0
+2017-02-02T17:10:22.2252870Z TRACE:: STATISTICS:: Alpha 0.002
+2017-02-02T17:10:22.2253150Z TRACE:: STATISTICS:: Beta 1
+2017-02-02T17:10:22.2253360Z TRACE:: STATISTICS:: Annual Standard Deviation 0.193
+2017-02-02T17:10:22.2253640Z TRACE:: STATISTICS:: Annual Variance 0.037
+2017-02-02T17:10:22.2253850Z TRACE:: STATISTICS:: Information Ratio 6.816
+2017-02-02T17:10:22.2254060Z TRACE:: STATISTICS:: Tracking Error 0
+2017-02-02T17:10:22.2254420Z TRACE:: STATISTICS:: Treynor Ratio 0.851
+2017-02-02T17:10:22.2254740Z TRACE:: STATISTICS:: Total Fees $3.09
+2017-02-02T17:10:22.2255050Z TRACE:: BacktestingResultHandler.SendAnalysisResult(): Processed final packet
+2017-02-02T17:10:22.2259980Z TRACE:: FileSystemDataFeed.Exit(): Exit triggered.
+2017-02-02T17:10:22.2263660Z TRACE:: BrokerageTransactionHandler.Run(): Ending Thread...
+2017-02-02T17:10:22.2268040Z TRACE:: FileSystemDataFeed.Run(): Ending Thread... 
+2017-02-02T17:10:22.2275040Z TRACE:: StateCheck.Ping.Run(): Exited thread.
+2017-02-02T17:10:22.2457740Z TRACE:: Debug: Your log was successfully created and can be retrieved from: /lean/TestProject/bin/Debug/log.txt
+2017-02-02T17:10:22.2459630Z TRACE:: BacktestingResultHandler.Run(): Ending Thread...
+2017-02-02T17:10:22.3277200Z TRACE:: Waiting for threads to exit...
+2017-02-02T17:10:22.3281350Z TRACE:: Engine.Run(): Disconnecting from brokerage...
+2017-02-02T17:10:22.3282760Z TRACE:: Engine.Run(): Disposing of setup handler...
+2017-02-02T17:10:22.3283820Z TRACE:: Engine.Main(): Analysis Completed and Results Posted.
+2017-02-02T17:10:22.3284590Z TRACE:: FileSystemDataFeed.Exit(): Exit triggered.
+2017-02-02T17:10:22.3285130Z TRACE:: Engine.Main(): Packet removed from queue: BasicTemplateAlgorithm
+2017-02-02T17:12:06.5567550Z TRACE:: JobQueue.NextJob(): Selected QuantConnect.Algorithm.CSharp.dll
+2017-02-02T17:12:06.5685510Z TRACE:: Config.Get(): Configuration key not found. Key: history-provider - Using default value: SubscriptionDataReaderHistoryProvider
+2017-02-02T17:12:06.5769030Z TRACE:: Config.GetValue(): algorithm-manager-time-loop-maximum - Using default value: 10
+2017-02-02T17:12:06.5795590Z TRACE:: Config.Get(): Configuration key not found. Key: ironpython-location - Using default value: ../ironpython/Lib
+2017-02-02T17:12:06.5855600Z TRACE:: Loader.TryCreateILAlgorithm(): Loading only the algorithm assembly
+2017-02-02T17:12:06.6489660Z TRACE:: Loader.TryCreateILAlgorithm(): Loaded BasicTemplateAlgorithm
+2017-02-02T17:12:06.7002170Z TRACE:: Config.Get(): Configuration key not found. Key: security-data-feeds - Using default value: 
+2017-02-02T17:12:06.8473590Z TRACE:: BacktestingResultHandler(): Sample Period Set: 04.00
+2017-02-02T17:12:06.8482470Z TRACE:: Time.TradeableDates(): Security Count: 1
+2017-02-02T17:12:06.8504970Z TRACE:: Config.GetValue(): forward-console-messages - Using default value: True
+2017-02-02T17:12:06.8509100Z TRACE:: JOB HANDLERS: 
+2017-02-02T17:12:06.8509710Z TRACE::          DataFeed:     QuantConnect.Lean.Engine.DataFeeds.FileSystemDataFeed
+2017-02-02T17:12:06.8510120Z TRACE::          Setup:        QuantConnect.Lean.Engine.Setup.ConsoleSetupHandler
+2017-02-02T17:12:06.8510420Z TRACE::          RealTime:     QuantConnect.Lean.Engine.RealTime.BacktestingRealTimeHandler
+2017-02-02T17:12:06.8510760Z TRACE::          Results:      QuantConnect.Lean.Engine.Results.BacktestingResultHandler
+2017-02-02T17:12:06.8511160Z TRACE::          Transactions: QuantConnect.Lean.Engine.TransactionHandlers.BacktestingTransactionHandler
+2017-02-02T17:12:06.8511420Z TRACE::          Commands:     QuantConnect.Queues.EmptyCommandQueueHandler
+2017-02-02T17:12:06.8511840Z TRACE::          History Provider:     QuantConnect.Lean.Engine.HistoricalData.SubscriptionDataReaderHistoryProvider
+2017-02-02T17:12:06.8786760Z TRACE:: AlgorithmManager.Run(): Begin DataStream - Start: 10/07/2013 00:00:00 Stop: 10/11/2013 23:59:59
+2017-02-02T17:12:06.8836560Z TRACE:: Config.GetValue(): send-via-api - Using default value: False
+2017-02-02T17:12:06.8842840Z TRACE:: Debug: Launching analysis for BasicTemplateAlgorithm with LEAN Engine v2.2.0.2
+2017-02-02T17:12:06.8887720Z TRACE:: FileSystemDataFeed.GetEnumerator(): Begin: 10/07/2013 04:00:00 UTC
+2017-02-02T17:12:07.0943770Z TRACE:: Debug: Purchased Stock
+2017-02-02T17:12:11.4172810Z TRACE:: FileSystemDataFeed.Run(): Data Feed Completed at 10/11/2013 20:00:00 UTC
+2017-02-02T17:12:11.4175680Z TRACE:: AlgorithmManager.Run(): Firing On End Of Algorithm...
+2017-02-02T17:12:11.4178740Z TRACE:: Engine.Run(): Exiting Algorithm Manager
+2017-02-02T17:12:11.5542730Z TRACE:: Debug: Algorithm Id:(BasicTemplateAlgorithm) completed in 4.69 seconds at 25k data points per second. Processing total of 117,005 data points.
+2017-02-02T17:12:11.6196640Z TRACE:: STATISTICS:: Total Trades 1
+2017-02-02T17:12:11.6197280Z TRACE:: STATISTICS:: Average Win 0%
+2017-02-02T17:12:11.6197750Z TRACE:: STATISTICS:: Average Loss 0%
+2017-02-02T17:12:11.6198150Z TRACE:: STATISTICS:: Compounding Annual Return 264.956%
+2017-02-02T17:12:11.6198540Z TRACE:: STATISTICS:: Drawdown 2.200%
+2017-02-02T17:12:11.6198900Z TRACE:: STATISTICS:: Expectancy 0
+2017-02-02T17:12:11.6199280Z TRACE:: STATISTICS:: Net Profit 0%
+2017-02-02T17:12:11.6199660Z TRACE:: STATISTICS:: Sharpe Ratio 4.411
+2017-02-02T17:12:11.6199980Z TRACE:: STATISTICS:: Loss Rate 0%
+2017-02-02T17:12:11.6200290Z TRACE:: STATISTICS:: Win Rate 0%
+2017-02-02T17:12:11.6200650Z TRACE:: STATISTICS:: Profit-Loss Ratio 0
+2017-02-02T17:12:11.6200960Z TRACE:: STATISTICS:: Alpha 0.002
+2017-02-02T17:12:11.6201140Z TRACE:: STATISTICS:: Beta 1
+2017-02-02T17:12:11.6201310Z TRACE:: STATISTICS:: Annual Standard Deviation 0.193
+2017-02-02T17:12:11.6201630Z TRACE:: STATISTICS:: Annual Variance 0.037
+2017-02-02T17:12:11.6201940Z TRACE:: STATISTICS:: Information Ratio 6.816
+2017-02-02T17:12:11.6202280Z TRACE:: STATISTICS:: Tracking Error 0
+2017-02-02T17:12:11.6202500Z TRACE:: STATISTICS:: Treynor Ratio 0.851
+2017-02-02T17:12:11.6202700Z TRACE:: STATISTICS:: Total Fees $3.09
+2017-02-02T17:12:11.6202960Z TRACE:: BacktestingResultHandler.SendAnalysisResult(): Processed final packet
+2017-02-02T17:12:11.6207620Z TRACE:: FileSystemDataFeed.Exit(): Exit triggered.
+2017-02-02T17:12:11.6211160Z TRACE:: BrokerageTransactionHandler.Run(): Ending Thread...
+2017-02-02T17:12:11.6214240Z TRACE:: FileSystemDataFeed.Run(): Ending Thread... 
+2017-02-02T17:12:11.6217320Z TRACE:: StateCheck.Ping.Run(): Exited thread.
+2017-02-02T17:12:11.6547790Z TRACE:: Debug: Your log was successfully created and can be retrieved from: /lean/TestProject/bin/Debug/log.txt
+2017-02-02T17:12:11.6549830Z TRACE:: BacktestingResultHandler.Run(): Ending Thread...
+2017-02-02T17:12:11.7219360Z TRACE:: Waiting for threads to exit...
+2017-02-02T17:12:11.7226750Z TRACE:: Engine.Run(): Disconnecting from brokerage...
+2017-02-02T17:12:11.7228600Z TRACE:: Engine.Run(): Disposing of setup handler...
+2017-02-02T17:12:11.7230370Z TRACE:: Engine.Main(): Analysis Completed and Results Posted.
+2017-02-02T17:12:11.7230940Z TRACE:: FileSystemDataFeed.Exit(): Exit triggered.
+2017-02-02T17:12:11.7231340Z TRACE:: Engine.Main(): Packet removed from queue: BasicTemplateAlgorithm
+2017-02-02T17:14:50.9015540Z TRACE:: JobQueue.NextJob(): Selected QuantConnect.Algorithm.CSharp.dll
+2017-02-02T17:14:50.9124670Z TRACE:: Config.Get(): Configuration key not found. Key: history-provider - Using default value: SubscriptionDataReaderHistoryProvider
+2017-02-02T17:14:50.9204750Z TRACE:: Config.GetValue(): algorithm-manager-time-loop-maximum - Using default value: 10
+2017-02-02T17:14:50.9231780Z TRACE:: Config.Get(): Configuration key not found. Key: ironpython-location - Using default value: ../ironpython/Lib
+2017-02-02T17:14:50.9292340Z TRACE:: Loader.TryCreateILAlgorithm(): Loading only the algorithm assembly
+2017-02-02T17:14:50.9928100Z TRACE:: Loader.TryCreateILAlgorithm(): Loaded BasicTemplateAlgorithm
+2017-02-02T17:14:51.0439420Z TRACE:: Config.Get(): Configuration key not found. Key: security-data-feeds - Using default value: 
+2017-02-02T17:14:51.1956660Z TRACE:: BacktestingResultHandler(): Sample Period Set: 04.00
+2017-02-02T17:14:51.1966650Z TRACE:: Time.TradeableDates(): Security Count: 1
+2017-02-02T17:14:51.1989800Z TRACE:: Config.GetValue(): forward-console-messages - Using default value: True
+2017-02-02T17:14:51.1993540Z TRACE:: JOB HANDLERS: 
+2017-02-02T17:14:51.1994150Z TRACE::          DataFeed:     QuantConnect.Lean.Engine.DataFeeds.FileSystemDataFeed
+2017-02-02T17:14:51.1994650Z TRACE::          Setup:        QuantConnect.Lean.Engine.Setup.ConsoleSetupHandler
+2017-02-02T17:14:51.1995120Z TRACE::          RealTime:     QuantConnect.Lean.Engine.RealTime.BacktestingRealTimeHandler
+2017-02-02T17:14:51.1995500Z TRACE::          Results:      QuantConnect.Lean.Engine.Results.BacktestingResultHandler
+2017-02-02T17:14:51.1995910Z TRACE::          Transactions: QuantConnect.Lean.Engine.TransactionHandlers.BacktestingTransactionHandler
+2017-02-02T17:14:51.1996340Z TRACE::          Commands:     QuantConnect.Queues.EmptyCommandQueueHandler
+2017-02-02T17:14:51.1996780Z TRACE::          History Provider:     QuantConnect.Lean.Engine.HistoricalData.SubscriptionDataReaderHistoryProvider
+2017-02-02T17:14:51.2272830Z TRACE:: Config.GetValue(): send-via-api - Using default value: False
+2017-02-02T17:14:51.2274220Z TRACE:: AlgorithmManager.Run(): Begin DataStream - Start: 10/07/2013 00:00:00 Stop: 10/11/2013 23:59:59
+2017-02-02T17:14:51.2279430Z TRACE:: Debug: Launching analysis for BasicTemplateAlgorithm with LEAN Engine v2.2.0.2
+2017-02-02T17:14:51.2380680Z TRACE:: FileSystemDataFeed.GetEnumerator(): Begin: 10/07/2013 04:00:00 UTC
+2017-02-02T17:14:51.4903880Z TRACE:: Debug: Purchased Stock
+2017-02-02T17:14:55.6871300Z TRACE:: FileSystemDataFeed.Run(): Data Feed Completed at 10/11/2013 20:00:00 UTC
+2017-02-02T17:14:55.6875110Z TRACE:: AlgorithmManager.Run(): Firing On End Of Algorithm...
+2017-02-02T17:14:55.6877230Z TRACE:: Engine.Run(): Exiting Algorithm Manager
+2017-02-02T17:14:55.8602380Z TRACE:: Debug: Algorithm Id:(BasicTemplateAlgorithm) completed in 4.62 seconds at 25k data points per second. Processing total of 117,005 data points.
+2017-02-02T17:14:55.8972130Z TRACE:: STATISTICS:: Total Trades 1
+2017-02-02T17:14:55.8972820Z TRACE:: STATISTICS:: Average Win 0%
+2017-02-02T17:14:55.8973180Z TRACE:: STATISTICS:: Average Loss 0%
+2017-02-02T17:14:55.8973580Z TRACE:: STATISTICS:: Compounding Annual Return 264.956%
+2017-02-02T17:14:55.8973980Z TRACE:: STATISTICS:: Drawdown 2.200%
+2017-02-02T17:14:55.8974350Z TRACE:: STATISTICS:: Expectancy 0
+2017-02-02T17:14:55.8974810Z TRACE:: STATISTICS:: Net Profit 0%
+2017-02-02T17:14:55.8975220Z TRACE:: STATISTICS:: Sharpe Ratio 4.411
+2017-02-02T17:14:55.8975530Z TRACE:: STATISTICS:: Loss Rate 0%
+2017-02-02T17:14:55.8975990Z TRACE:: STATISTICS:: Win Rate 0%
+2017-02-02T17:14:55.8976350Z TRACE:: STATISTICS:: Profit-Loss Ratio 0
+2017-02-02T17:14:55.8976600Z TRACE:: STATISTICS:: Alpha 0.002
+2017-02-02T17:14:55.8976810Z TRACE:: STATISTICS:: Beta 1
+2017-02-02T17:14:55.8977160Z TRACE:: STATISTICS:: Annual Standard Deviation 0.193
+2017-02-02T17:14:55.8977470Z TRACE:: STATISTICS:: Annual Variance 0.037
+2017-02-02T17:14:55.8977660Z TRACE:: STATISTICS:: Information Ratio 6.816
+2017-02-02T17:14:55.8977910Z TRACE:: STATISTICS:: Tracking Error 0
+2017-02-02T17:14:55.8978240Z TRACE:: STATISTICS:: Treynor Ratio 0.851
+2017-02-02T17:14:55.8978450Z TRACE:: STATISTICS:: Total Fees $3.09
+2017-02-02T17:14:55.8978840Z TRACE:: BacktestingResultHandler.SendAnalysisResult(): Processed final packet
+2017-02-02T17:14:55.8984320Z TRACE:: FileSystemDataFeed.Exit(): Exit triggered.
+2017-02-02T17:14:55.8988570Z TRACE:: BrokerageTransactionHandler.Run(): Ending Thread...
+2017-02-02T17:14:55.8992590Z TRACE:: FileSystemDataFeed.Run(): Ending Thread... 
+2017-02-02T17:14:55.8996530Z TRACE:: StateCheck.Ping.Run(): Exited thread.
+2017-02-02T17:14:55.9105850Z TRACE:: Debug: Your log was successfully created and can be retrieved from: /lean/TestProject/bin/Debug/log.txt
+2017-02-02T17:14:55.9107210Z TRACE:: BacktestingResultHandler.Run(): Ending Thread...
+2017-02-02T17:14:55.9997130Z TRACE:: Waiting for threads to exit...
+2017-02-02T17:14:56.0004350Z TRACE:: Engine.Run(): Disconnecting from brokerage...
+2017-02-02T17:14:56.0006640Z TRACE:: Engine.Run(): Disposing of setup handler...
+2017-02-02T17:14:56.0007570Z TRACE:: Engine.Main(): Analysis Completed and Results Posted.
+2017-02-02T17:14:56.0008060Z TRACE:: FileSystemDataFeed.Exit(): Exit triggered.
+2017-02-02T17:14:56.0008460Z TRACE:: Engine.Main(): Packet removed from queue: BasicTemplateAlgorithm
+2017-02-02T17:23:16.7272300Z TRACE:: JobQueue.NextJob(): Selected QuantConnect.Algorithm.CSharp.dll
+2017-02-02T17:23:16.7389020Z TRACE:: Config.Get(): Configuration key not found. Key: history-provider - Using default value: SubscriptionDataReaderHistoryProvider
+2017-02-02T17:23:16.7471270Z TRACE:: Config.GetValue(): algorithm-manager-time-loop-maximum - Using default value: 10
+2017-02-02T17:23:16.7498900Z TRACE:: Config.Get(): Configuration key not found. Key: ironpython-location - Using default value: ../ironpython/Lib
+2017-02-02T17:23:16.7556500Z TRACE:: Loader.TryCreateILAlgorithm(): Loading only the algorithm assembly
+2017-02-02T17:23:16.8181980Z TRACE:: Loader.TryCreateILAlgorithm(): Loaded BasicTemplateAlgorithm
+2017-02-02T17:23:16.8703250Z TRACE:: Config.Get(): Configuration key not found. Key: security-data-feeds - Using default value: 
+2017-02-02T17:23:17.0202190Z TRACE:: BacktestingResultHandler(): Sample Period Set: 04.00
+2017-02-02T17:23:17.0211990Z TRACE:: Time.TradeableDates(): Security Count: 1
+2017-02-02T17:23:17.0235920Z TRACE:: Config.GetValue(): forward-console-messages - Using default value: True
+2017-02-02T17:23:17.0240590Z TRACE:: JOB HANDLERS: 
+2017-02-02T17:23:17.0241230Z TRACE::          DataFeed:     QuantConnect.Lean.Engine.DataFeeds.FileSystemDataFeed
+2017-02-02T17:23:17.0241730Z TRACE::          Setup:        QuantConnect.Lean.Engine.Setup.ConsoleSetupHandler
+2017-02-02T17:23:17.0242220Z TRACE::          RealTime:     QuantConnect.Lean.Engine.RealTime.BacktestingRealTimeHandler
+2017-02-02T17:23:17.0242660Z TRACE::          Results:      QuantConnect.Lean.Engine.Results.BacktestingResultHandler
+2017-02-02T17:23:17.0242930Z TRACE::          Transactions: QuantConnect.Lean.Engine.TransactionHandlers.BacktestingTransactionHandler
+2017-02-02T17:23:17.0243170Z TRACE::          Commands:     QuantConnect.Queues.EmptyCommandQueueHandler
+2017-02-02T17:23:17.0243420Z TRACE::          History Provider:     QuantConnect.Lean.Engine.HistoricalData.SubscriptionDataReaderHistoryProvider
+2017-02-02T17:23:17.0533110Z TRACE:: AlgorithmManager.Run(): Begin DataStream - Start: 10/07/2013 00:00:00 Stop: 10/11/2013 23:59:59
+2017-02-02T17:23:17.0541180Z TRACE:: Config.GetValue(): send-via-api - Using default value: False
+2017-02-02T17:23:17.0548970Z TRACE:: Debug: Launching analysis for BasicTemplateAlgorithm with LEAN Engine v2.2.0.2
+2017-02-02T17:23:17.0643880Z TRACE:: FileSystemDataFeed.GetEnumerator(): Begin: 10/07/2013 04:00:00 UTC
+2017-02-02T17:23:17.3166080Z TRACE:: Debug: Purchased Stock
+2017-02-02T17:23:21.4937470Z TRACE:: FileSystemDataFeed.Run(): Data Feed Completed at 10/11/2013 20:00:00 UTC
+2017-02-02T17:23:21.4940960Z TRACE:: AlgorithmManager.Run(): Firing On End Of Algorithm...
+2017-02-02T17:23:21.4942940Z TRACE:: Engine.Run(): Exiting Algorithm Manager
+2017-02-02T17:23:21.6001050Z TRACE:: Debug: Algorithm Id:(BasicTemplateAlgorithm) completed in 4.54 seconds at 26k data points per second. Processing total of 117,005 data points.
+2017-02-02T17:23:21.6430300Z TRACE:: STATISTICS:: Total Trades 1
+2017-02-02T17:23:21.6431020Z TRACE:: STATISTICS:: Average Win 0%
+2017-02-02T17:23:21.6431480Z TRACE:: STATISTICS:: Average Loss 0%
+2017-02-02T17:23:21.6431900Z TRACE:: STATISTICS:: Compounding Annual Return 264.956%
+2017-02-02T17:23:21.6432270Z TRACE:: STATISTICS:: Drawdown 2.200%
+2017-02-02T17:23:21.6432610Z TRACE:: STATISTICS:: Expectancy 0
+2017-02-02T17:23:21.6432950Z TRACE:: STATISTICS:: Net Profit 0%
+2017-02-02T17:23:21.6433300Z TRACE:: STATISTICS:: Sharpe Ratio 4.411
+2017-02-02T17:23:21.6433670Z TRACE:: STATISTICS:: Loss Rate 0%
+2017-02-02T17:23:21.6433970Z TRACE:: STATISTICS:: Win Rate 0%
+2017-02-02T17:23:21.6434160Z TRACE:: STATISTICS:: Profit-Loss Ratio 0
+2017-02-02T17:23:21.6434350Z TRACE:: STATISTICS:: Alpha 0.002
+2017-02-02T17:23:21.6434520Z TRACE:: STATISTICS:: Beta 1
+2017-02-02T17:23:21.6434820Z TRACE:: STATISTICS:: Annual Standard Deviation 0.193
+2017-02-02T17:23:21.6435090Z TRACE:: STATISTICS:: Annual Variance 0.037
+2017-02-02T17:23:21.6435280Z TRACE:: STATISTICS:: Information Ratio 6.816
+2017-02-02T17:23:21.6435460Z TRACE:: STATISTICS:: Tracking Error 0
+2017-02-02T17:23:21.6435630Z TRACE:: STATISTICS:: Treynor Ratio 0.851
+2017-02-02T17:23:21.6435810Z TRACE:: STATISTICS:: Total Fees $3.09
+2017-02-02T17:23:21.6436100Z TRACE:: BacktestingResultHandler.SendAnalysisResult(): Processed final packet
+2017-02-02T17:23:21.6440780Z TRACE:: FileSystemDataFeed.Exit(): Exit triggered.
+2017-02-02T17:23:21.6446850Z TRACE:: BrokerageTransactionHandler.Run(): Ending Thread...
+2017-02-02T17:23:21.6448510Z TRACE:: StateCheck.Ping.Run(): Exited thread.
+2017-02-02T17:23:21.6449950Z TRACE:: FileSystemDataFeed.Run(): Ending Thread... 
+2017-02-02T17:23:21.6503560Z TRACE:: Debug: Your log was successfully created and can be retrieved from: /lean/TestProject/bin/Debug/log.txt
+2017-02-02T17:23:21.6504710Z TRACE:: BacktestingResultHandler.Run(): Ending Thread...
+2017-02-02T17:23:21.7451330Z TRACE:: Waiting for threads to exit...
+2017-02-02T17:23:21.7459230Z TRACE:: Engine.Run(): Disconnecting from brokerage...
+2017-02-02T17:23:21.7462440Z TRACE:: Engine.Run(): Disposing of setup handler...
+2017-02-02T17:23:21.7465210Z TRACE:: Engine.Main(): Analysis Completed and Results Posted.
+2017-02-02T17:23:21.7466510Z TRACE:: FileSystemDataFeed.Exit(): Exit triggered.
+2017-02-02T17:23:21.7467050Z TRACE:: Engine.Main(): Packet removed from queue: BasicTemplateAlgorithm
+2017-02-02T18:18:47.8040120Z TRACE:: JobQueue.NextJob(): Selected QuantConnect.Algorithm.CSharp.dll
+2017-02-02T18:18:47.8153610Z TRACE:: Config.Get(): Configuration key not found. Key: history-provider - Using default value: SubscriptionDataReaderHistoryProvider
+2017-02-02T18:18:47.8237290Z TRACE:: Config.GetValue(): algorithm-manager-time-loop-maximum - Using default value: 10
+2017-02-02T18:18:47.8262370Z TRACE:: Config.Get(): Configuration key not found. Key: ironpython-location - Using default value: ../ironpython/Lib
+2017-02-02T18:18:47.8321680Z TRACE:: Loader.TryCreateILAlgorithm(): Loading only the algorithm assembly
+2017-02-02T18:18:47.8941880Z TRACE:: Loader.TryCreateILAlgorithm(): Loaded BasicTemplateAlgorithm
+2017-02-02T18:18:47.9469450Z TRACE:: Config.Get(): Configuration key not found. Key: security-data-feeds - Using default value: 
+2017-02-02T18:18:48.1083670Z TRACE:: BacktestingResultHandler(): Sample Period Set: 04.00
+2017-02-02T18:18:48.1093390Z TRACE:: Time.TradeableDates(): Security Count: 1
+2017-02-02T18:18:48.1117140Z TRACE:: Config.GetValue(): forward-console-messages - Using default value: True
+2017-02-02T18:18:48.1120690Z TRACE:: JOB HANDLERS: 
+2017-02-02T18:18:48.1121210Z TRACE::          DataFeed:     QuantConnect.Lean.Engine.DataFeeds.FileSystemDataFeed
+2017-02-02T18:18:48.1121550Z TRACE::          Setup:        QuantConnect.Lean.Engine.Setup.ConsoleSetupHandler
+2017-02-02T18:18:48.1121950Z TRACE::          RealTime:     QuantConnect.Lean.Engine.RealTime.BacktestingRealTimeHandler
+2017-02-02T18:18:48.1122240Z TRACE::          Results:      QuantConnect.Lean.Engine.Results.BacktestingResultHandler
+2017-02-02T18:18:48.1122580Z TRACE::          Transactions: QuantConnect.Lean.Engine.TransactionHandlers.BacktestingTransactionHandler
+2017-02-02T18:18:48.1122880Z TRACE::          Commands:     QuantConnect.Queues.EmptyCommandQueueHandler
+2017-02-02T18:18:48.1123200Z TRACE::          History Provider:     QuantConnect.Lean.Engine.HistoricalData.SubscriptionDataReaderHistoryProvider
+2017-02-02T18:18:48.1303680Z TRACE:: Config.GetValue(): send-via-api - Using default value: False
+2017-02-02T18:18:48.1313980Z TRACE:: Debug: Launching analysis for BasicTemplateAlgorithm with LEAN Engine v2.2.0.2
+2017-02-02T18:18:48.1415450Z TRACE:: AlgorithmManager.Run(): Begin DataStream - Start: 10/07/2013 00:00:00 Stop: 10/11/2013 23:59:59
+2017-02-02T18:18:48.1520550Z TRACE:: FileSystemDataFeed.GetEnumerator(): Begin: 10/07/2013 04:00:00 UTC
+2017-02-02T18:18:48.3866690Z TRACE:: Debug: Purchased Stock
+2017-02-02T18:18:52.6552240Z TRACE:: FileSystemDataFeed.Run(): Data Feed Completed at 10/11/2013 20:00:00 UTC
+2017-02-02T18:18:52.6555160Z TRACE:: AlgorithmManager.Run(): Firing On End Of Algorithm...
+2017-02-02T18:18:52.6557270Z TRACE:: Engine.Run(): Exiting Algorithm Manager
+2017-02-02T18:18:52.8797960Z TRACE:: Debug: Algorithm Id:(BasicTemplateAlgorithm) completed in 4.75 seconds at 25k data points per second. Processing total of 117,005 data points.
+2017-02-02T18:18:52.9303640Z TRACE:: STATISTICS:: Total Trades 1
+2017-02-02T18:18:52.9304190Z TRACE:: STATISTICS:: Average Win 0%
+2017-02-02T18:18:52.9304440Z TRACE:: STATISTICS:: Average Loss 0%
+2017-02-02T18:18:52.9304650Z TRACE:: STATISTICS:: Compounding Annual Return 264.956%
+2017-02-02T18:18:52.9304920Z TRACE:: STATISTICS:: Drawdown 2.200%
+2017-02-02T18:18:52.9305230Z TRACE:: STATISTICS:: Expectancy 0
+2017-02-02T18:18:52.9305440Z TRACE:: STATISTICS:: Net Profit 0%
+2017-02-02T18:18:52.9305780Z TRACE:: STATISTICS:: Sharpe Ratio 4.411
+2017-02-02T18:18:52.9306020Z TRACE:: STATISTICS:: Loss Rate 0%
+2017-02-02T18:18:52.9306320Z TRACE:: STATISTICS:: Win Rate 0%
+2017-02-02T18:18:52.9306610Z TRACE:: STATISTICS:: Profit-Loss Ratio 0
+2017-02-02T18:18:52.9306900Z TRACE:: STATISTICS:: Alpha 0.002
+2017-02-02T18:18:52.9307230Z TRACE:: STATISTICS:: Beta 1
+2017-02-02T18:18:52.9307560Z TRACE:: STATISTICS:: Annual Standard Deviation 0.193
+2017-02-02T18:18:52.9307900Z TRACE:: STATISTICS:: Annual Variance 0.037
+2017-02-02T18:18:52.9308170Z TRACE:: STATISTICS:: Information Ratio 6.816
+2017-02-02T18:18:52.9308470Z TRACE:: STATISTICS:: Tracking Error 0
+2017-02-02T18:18:52.9308810Z TRACE:: STATISTICS:: Treynor Ratio 0.851
+2017-02-02T18:18:52.9309120Z TRACE:: STATISTICS:: Total Fees $3.09
+2017-02-02T18:18:52.9309390Z TRACE:: BacktestingResultHandler.SendAnalysisResult(): Processed final packet
+2017-02-02T18:18:52.9313740Z TRACE:: FileSystemDataFeed.Exit(): Exit triggered.
+2017-02-02T18:18:52.9319520Z TRACE:: BrokerageTransactionHandler.Run(): Ending Thread...
+2017-02-02T18:18:52.9321740Z TRACE:: StateCheck.Ping.Run(): Exited thread.
+2017-02-02T18:18:52.9324560Z TRACE:: FileSystemDataFeed.Run(): Ending Thread... 
+2017-02-02T18:18:52.9802770Z TRACE:: Debug: Your log was successfully created and can be retrieved from: /lean/TestProject/bin/Debug/log.txt
+2017-02-02T18:18:52.9804310Z TRACE:: BacktestingResultHandler.Run(): Ending Thread...
+2017-02-02T18:18:53.0326100Z TRACE:: Waiting for threads to exit...
+2017-02-02T18:18:53.0331050Z TRACE:: Engine.Run(): Disconnecting from brokerage...
+2017-02-02T18:18:53.0333010Z TRACE:: Engine.Run(): Disposing of setup handler...
+2017-02-02T18:18:53.0334750Z TRACE:: Engine.Main(): Analysis Completed and Results Posted.
+2017-02-02T18:18:53.0336010Z TRACE:: FileSystemDataFeed.Exit(): Exit triggered.
+2017-02-02T18:18:53.0336560Z TRACE:: Engine.Main(): Packet removed from queue: BasicTemplateAlgorithm
+2017-02-02T18:28:29.6966500Z TRACE:: JobQueue.NextJob(): Selected QuantConnect.Algorithm.CSharp.dll
+2017-02-02T18:28:29.7081360Z TRACE:: Config.Get(): Configuration key not found. Key: history-provider - Using default value: SubscriptionDataReaderHistoryProvider
+2017-02-02T18:28:29.7163020Z TRACE:: Config.GetValue(): algorithm-manager-time-loop-maximum - Using default value: 10
+2017-02-02T18:28:29.7186760Z TRACE:: Config.Get(): Configuration key not found. Key: ironpython-location - Using default value: ../ironpython/Lib
+2017-02-02T18:28:29.7240770Z TRACE:: Loader.TryCreateILAlgorithm(): Loading only the algorithm assembly
+2017-02-02T18:28:29.7886600Z TRACE:: Loader.TryCreateILAlgorithm(): Loaded BasicTemplateAlgorithm
+2017-02-02T18:28:29.8393600Z TRACE:: Config.Get(): Configuration key not found. Key: security-data-feeds - Using default value: 
+2017-02-02T18:28:30.0005150Z TRACE:: BacktestingResultHandler(): Sample Period Set: 04.00
+2017-02-02T18:28:30.0014920Z TRACE:: Time.TradeableDates(): Security Count: 1
+2017-02-02T18:28:30.0038270Z TRACE:: Config.GetValue(): forward-console-messages - Using default value: True
+2017-02-02T18:28:30.0041980Z TRACE:: JOB HANDLERS: 
+2017-02-02T18:28:30.0042440Z TRACE::          DataFeed:     QuantConnect.Lean.Engine.DataFeeds.FileSystemDataFeed
+2017-02-02T18:28:30.0042810Z TRACE::          Setup:        QuantConnect.Lean.Engine.Setup.ConsoleSetupHandler
+2017-02-02T18:28:30.0043080Z TRACE::          RealTime:     QuantConnect.Lean.Engine.RealTime.BacktestingRealTimeHandler
+2017-02-02T18:28:30.0043440Z TRACE::          Results:      QuantConnect.Lean.Engine.Results.BacktestingResultHandler
+2017-02-02T18:28:30.0043700Z TRACE::          Transactions: QuantConnect.Lean.Engine.TransactionHandlers.BacktestingTransactionHandler
+2017-02-02T18:28:30.0043940Z TRACE::          Commands:     QuantConnect.Queues.EmptyCommandQueueHandler
+2017-02-02T18:28:30.0044220Z TRACE::          History Provider:     QuantConnect.Lean.Engine.HistoricalData.SubscriptionDataReaderHistoryProvider
+2017-02-02T18:28:30.0228370Z TRACE:: Config.GetValue(): send-via-api - Using default value: False
+2017-02-02T18:28:30.0237930Z TRACE:: Debug: Launching analysis for BasicTemplateAlgorithm with LEAN Engine v2.2.0.2
+2017-02-02T18:28:30.0331770Z TRACE:: AlgorithmManager.Run(): Begin DataStream - Start: 10/07/2013 00:00:00 Stop: 10/11/2013 23:59:59
+2017-02-02T18:28:30.0435390Z TRACE:: FileSystemDataFeed.GetEnumerator(): Begin: 10/07/2013 04:00:00 UTC
+2017-02-02T18:28:30.2884580Z TRACE:: Debug: Purchased Stock
+2017-02-02T18:28:34.6289660Z TRACE:: FileSystemDataFeed.Run(): Data Feed Completed at 10/11/2013 20:00:00 UTC
+2017-02-02T18:28:34.6292680Z TRACE:: AlgorithmManager.Run(): Firing On End Of Algorithm...
+2017-02-02T18:28:34.6294600Z TRACE:: Engine.Run(): Exiting Algorithm Manager
+2017-02-02T18:28:34.6966580Z TRACE:: Debug: Algorithm Id:(BasicTemplateAlgorithm) completed in 4.69 seconds at 25k data points per second. Processing total of 117,005 data points.
+2017-02-02T18:28:34.7776480Z TRACE:: STATISTICS:: Total Trades 1
+2017-02-02T18:28:34.7777200Z TRACE:: STATISTICS:: Average Win 0%
+2017-02-02T18:28:34.7777670Z TRACE:: STATISTICS:: Average Loss 0%
+2017-02-02T18:28:34.7778080Z TRACE:: STATISTICS:: Compounding Annual Return 264.956%
+2017-02-02T18:28:34.7778490Z TRACE:: STATISTICS:: Drawdown 2.200%
+2017-02-02T18:28:34.7778860Z TRACE:: STATISTICS:: Expectancy 0
+2017-02-02T18:28:34.7779300Z TRACE:: STATISTICS:: Net Profit 0%
+2017-02-02T18:28:34.7779660Z TRACE:: STATISTICS:: Sharpe Ratio 4.411
+2017-02-02T18:28:34.7780010Z TRACE:: STATISTICS:: Loss Rate 0%
+2017-02-02T18:28:34.7780370Z TRACE:: STATISTICS:: Win Rate 0%
+2017-02-02T18:28:34.7780690Z TRACE:: STATISTICS:: Profit-Loss Ratio 0
+2017-02-02T18:28:34.7781050Z TRACE:: STATISTICS:: Alpha 0.002
+2017-02-02T18:28:34.7781360Z TRACE:: STATISTICS:: Beta 1
+2017-02-02T18:28:34.7781670Z TRACE:: STATISTICS:: Annual Standard Deviation 0.193
+2017-02-02T18:28:34.7781880Z TRACE:: STATISTICS:: Annual Variance 0.037
+2017-02-02T18:28:34.7782210Z TRACE:: STATISTICS:: Information Ratio 6.816
+2017-02-02T18:28:34.7782570Z TRACE:: STATISTICS:: Tracking Error 0
+2017-02-02T18:28:34.7782890Z TRACE:: STATISTICS:: Treynor Ratio 0.851
+2017-02-02T18:28:34.7783220Z TRACE:: STATISTICS:: Total Fees $3.09
+2017-02-02T18:28:34.7808810Z TRACE:: {"Charts":{"Strategy Equity":{"Name":"Strategy Equity","ChartType":0,"Series":{"Equity":{"Name":"Equity","Unit":"$","Index":0,"Values":[{"x":1381118400,"y":100000.0},{"x":1381152601,"y":99996.91},{"x":1381152842,"y":99990.9383},{"x":1381153083,"y":100032.7401},{"x":1381153324,"y":100086.4852},{"x":1381153565,"y":100098.4286},{"x":1381153806,"y":100235.7772},{"x":1381154047,"y":100193.9754},{"x":1381154288,"y":100182.0321},{"x":1381154529,"y":100116.3436},{"x":1381154770,"y":100176.0604},{"x":1381155011,"y":100367.1542},{"x":1381155252,"y":100408.9559},{"x":1381155493,"y":100397.0126},{"x":1381155734,"y":100432.8427},{"x":1381155975,"y":100474.6444},{"x":1381156216,"y":100498.5311},{"x":1381156457,"y":100504.5028},{"x":1381156698,"y":100426.871},{"x":1381156939,"y":100414.9276},{"x":1381157180,"y":100420.8993},{"x":1381157421,"y":100432.8427},{"x":1381157662,"y":100486.5878},{"x":1381157903,"y":100456.7294},{"x":1381158144,"y":100349.2391},{"x":1381158385,"y":100337.2958},{"x":1381158626,"y":100367.1542},{"x":1381158867,"y":100414.9276},{"x":1381159108,"y":100331.3241},{"x":1381159349,"y":100355.2108},{"x":1381159590,"y":100367.1542},{"x":1381159831,"y":100355.2108},{"x":1381160072,"y":100438.8143},{"x":1381160313,"y":100444.786},{"x":1381160554,"y":100414.9276},{"x":1381160795,"y":100498.5311},{"x":1381161036,"y":100531.3754},{"x":1381161277,"y":100468.6727},{"x":1381161518,"y":100492.5595},{"x":1381161759,"y":100402.9843},{"x":1381162000,"y":100432.8427},{"x":1381162241,"y":100432.8427},{"x":1381162482,"y":100426.871},{"x":1381162723,"y":100426.871},{"x":1381162964,"y":100379.0975},{"x":1381163205,"y":100367.1542},{"x":1381163446,"y":100259.6639},{"x":1381163687,"y":100295.494},{"x":1381163928,"y":100295.494},{"x":1381164169,"y":100295.494},{"x":1381164410,"y":100337.2958},{"x":1381164651,"y":100313.4091},{"x":1381164892,"y":100343.2675},{"x":1381165133,"y":100235.7772},{"x":1381165374,"y":100301.4657},{"x":1381165615,"y":100253.6923},{"x":1381165856,"y":100313.4091},{"x":1381166097,"y":100349.2391},{"x":1381166338,"y":100385.0692},{"x":1381166579,"y":100385.0692},{"x":1381166820,"y":100373.1259},{"x":1381167061,"y":100411.9418},{"x":1381167302,"y":100391.0409},{"x":1381167543,"y":100313.4091},{"x":1381167784,"y":100313.4091},{"x":1381168025,"y":100355.2108},{"x":1381168266,"y":100337.2958},{"x":1381168507,"y":100349.2391},{"x":1381168748,"y":100438.8143},{"x":1381168989,"y":100558.2479},{"x":1381169230,"y":100420.8993},{"x":1381169471,"y":100444.786},{"x":1381169712,"y":100426.871},{"x":1381169953,"y":100426.871},{"x":1381170194,"y":100432.8427},{"x":1381170435,"y":100426.871},{"x":1381170676,"y":100444.786},{"x":1381170917,"y":100486.5878},{"x":1381171158,"y":100486.5878},{"x":1381171399,"y":100397.0126},{"x":1381171640,"y":100414.9276},{"x":1381171881,"y":100444.786},{"x":1381172122,"y":100462.7011},{"x":1381172363,"y":100480.6161},{"x":1381172604,"y":100456.7294},{"x":1381172845,"y":100444.786},{"x":1381173086,"y":100468.6727},{"x":1381173327,"y":100450.7577},{"x":1381173568,"y":100456.7294},{"x":1381173809,"y":100337.2958},{"x":1381174050,"y":100302.0629},{"x":1381174291,"y":100295.494},{"x":1381174532,"y":100259.6639},{"x":1381174773,"y":100229.8055},{"x":1381175014,"y":100223.8338},{"x":1381175255,"y":100122.3153},{"x":1381175496,"y":100128.287},{"x":1381175737,"y":100062.5985},{"x":1381175978,"y":100026.7684},{"x":1381176000,"y":100002.8817},{"x":1381204800,"y":100002.8817},{"x":1381239001,"y":99996.91},{"x":1381239242,"y":99973.0233},{"x":1381239483,"y":99841.6463},{"x":1381239724,"y":99817.7596},{"x":1381239965,"y":100038.7118},{"x":1381240206,"y":99961.0799},{"x":1381240447,"y":99883.4481},{"x":1381240688,"y":100026.7684},{"x":1381240929,"y":99955.1082},{"x":1381241170,"y":99984.9666},{"x":1381241411,"y":99871.5047},{"x":1381241652,"y":99925.2498},{"x":1381241893,"y":99990.9383},{"x":1381242134,"y":99973.0233},{"x":1381242375,"y":99955.1082},{"x":1381242616,"y":99973.0233},{"x":1381242857,"y":99901.3631},{"x":1381243098,"y":99883.4481},{"x":1381243339,"y":99853.5897},{"x":1381243580,"y":99883.4481},{"x":1381243821,"y":99656.5242},{"x":1381244062,"y":99608.7508},{"x":1381244303,"y":99584.8641},{"x":1381244544,"y":99483.3455},{"x":1381244785,"y":99495.2889},{"x":1381245026,"y":99590.8357},{"x":1381245267,"y":99614.7225},{"x":1381245508,"y":99549.034},{"x":1381245749,"y":99560.9773},{"x":1381245990,"y":99572.9207},{"x":1381246231,"y":99501.2605},{"x":1381246472,"y":99459.4588},{"x":1381246713,"y":99375.8553},{"x":1381246954,"y":99304.1951},{"x":1381247195,"y":99268.365},{"x":1381247436,"y":99250.45},{"x":1381247677,"y":99304.1951},{"x":1381247918,"y":99319.1243},{"x":1381248159,"y":99286.2801},{"x":1381248400,"y":99244.4783},{"x":1381248641,"y":99286.2801},{"x":1381248882,"y":99262.3933},{"x":1381249123,"y":99208.6482},{"x":1381249364,"y":99202.6765},{"x":1381249605,"y":99160.8748},{"x":1381249846,"y":99149.5286},{"x":1381250087,"y":99095.1863},{"x":1381250328,"y":99166.8464},{"x":1381250569,"y":99196.7048},{"x":1381250810,"y":99340.0252},{"x":1381251051,"y":99286.2801},{"x":1381251292,"y":99214.6199},{"x":1381251533,"y":99292.2517},{"x":1381251774,"y":99328.0818},{"x":1381252015,"y":99238.5066},{"x":1381252256,"y":99214.6199},{"x":1381252497,"y":99226.5632},{"x":1381252738,"y":99136.988},{"x":1381252979,"y":99148.9314},{"x":1381253220,"y":99232.5349},{"x":1381253461,"y":99292.2517},{"x":1381253702,"y":99244.4783},{"x":1381253943,"y":99196.7048},{"x":1381254184,"y":99214.6199},{"x":1381254425,"y":99154.9031},{"x":1381254666,"y":99142.9597},{"x":1381254907,"y":99136.988},{"x":1381255148,"y":99107.1296},{"x":1381255389,"y":99005.6111},{"x":1381255630,"y":99017.5544},{"x":1381255871,"y":99035.4695},{"x":1381256112,"y":99017.5544},{"x":1381256353,"y":98975.7527},{"x":1381256594,"y":98981.7244},{"x":1381256835,"y":99160.8748},{"x":1381257076,"y":99172.8181},{"x":1381257317,"y":99095.1863},{"x":1381257558,"y":99041.4412},{"x":1381257799,"y":99071.2996},{"x":1381258040,"y":98987.696},{"x":1381258281,"y":98993.6677},{"x":1381258522,"y":98969.781},{"x":1381258763,"y":99029.4978},{"x":1381259004,"y":99125.0447},{"x":1381259245,"y":99083.2429},{"x":1381259486,"y":99035.4695},{"x":1381259727,"y":98957.8376},{"x":1381259968,"y":99029.4978},{"x":1381260209,"y":99166.8464},{"x":1381260450,"y":99250.45},{"x":1381260691,"y":99256.4217},{"x":1381260932,"y":99107.1296},{"x":1381261173,"y":99154.9031},{"x":1381261414,"y":99142.9597},{"x":1381261655,"y":98993.6677},{"x":1381261896,"y":99035.4695},{"x":1381262137,"y":98951.866},{"x":1381262378,"y":98820.489},{"x":1381262400,"y":98826.4607},{"x":1381291200,"y":98826.4607},{"x":1381325401,"y":99017.5544},{"x":1381325642,"y":98898.1208},{"x":1381325883,"y":98963.8093},{"x":1381326124,"y":98838.404},{"x":1381326365,"y":98814.5173},{"x":1381326606,"y":98689.112},{"x":1381326847,"y":98695.0837},{"x":1381327088,"y":98856.3191},{"x":1381327329,"y":98862.2908},{"x":1381327570,"y":98695.0837},{"x":1381327811,"y":98754.8005},{"x":1381328052,"y":98748.8288},{"x":1381328293,"y":98748.8288},{"x":1381328534,"y":98766.7439},{"x":1381328775,"y":98951.866},{"x":1381329016,"y":98933.9509},{"x":1381329257,"y":98927.9792},{"x":1381329498,"y":98874.2341},{"x":1381329739,"y":98844.3757},{"x":1381329980,"y":98718.9704},{"x":1381330221,"y":98772.7156},{"x":1381330462,"y":98623.4235},{"x":1381330703,"y":98605.5085},{"x":1381330944,"y":98617.4519},{"x":1381331185,"y":98647.3103},{"x":1381331426,"y":98444.2731},{"x":1381331667,"y":98420.3864},{"x":1381331908,"y":98402.4714},{"x":1381332149,"y":98318.8679},{"x":1381332390,"y":98384.5563},{"x":1381332631,"y":98408.4431},{"x":1381332872,"y":98527.8767},{"x":1381333113,"y":98539.82},{"x":1381333354,"y":98474.1315},{"x":1381333595,"y":98599.5368},{"x":1381333836,"y":98659.2536},{"x":1381334077,"y":98623.4235},{"x":1381334318,"y":98641.3386},{"x":1381334559,"y":98730.9138},{"x":1381334800,"y":98623.4235},{"x":1381335041,"y":98605.5085},{"x":1381335282,"y":98695.0837},{"x":1381335523,"y":98698.0695},{"x":1381335764,"y":98659.2536},{"x":1381336005,"y":98641.3386},{"x":1381336246,"y":98647.3103},{"x":1381336487,"y":98712.9987},{"x":1381336728,"y":98766.7439},{"x":1381336969,"y":98665.2253},{"x":1381337210,"y":98623.4235},{"x":1381337451,"y":98605.5085},{"x":1381337692,"y":98611.4802},{"x":1381337933,"y":98593.5651},{"x":1381338174,"y":98712.9987},{"x":1381338415,"y":98695.0837},{"x":1381338656,"y":98718.9704},{"x":1381338897,"y":98820.489},{"x":1381339138,"y":98927.9792},{"x":1381339379,"y":99002.6252},{"x":1381339620,"y":99065.3279},{"x":1381339861,"y":99104.1438},{"x":1381340102,"y":98993.6677},{"x":1381340343,"y":98999.6394},{"x":1381340584,"y":99038.4553},{"x":1381340825,"y":99059.3562},{"x":1381341066,"y":99026.512},{"x":1381341307,"y":99071.2996},{"x":1381341548,"y":99083.2429},{"x":1381341789,"y":98963.8093},{"x":1381342030,"y":99113.1013},{"x":1381342271,"y":99095.1863},{"x":1381342512,"y":99053.3845},{"x":1381342753,"y":99017.5544},{"x":1381342994,"y":99083.2429},{"x":1381343235,"y":99041.4412},{"x":1381343476,"y":99154.9031},{"x":1381343717,"y":99208.6482},{"x":1381343958,"y":99107.1296},{"x":1381344199,"y":99065.3279},{"x":1381344440,"y":99089.2146},{"x":1381344681,"y":99107.1296},{"x":1381344922,"y":99119.073},{"x":1381345163,"y":99238.5066},{"x":1381345404,"y":99214.6199},{"x":1381345645,"y":99166.8464},{"x":1381345886,"y":99196.7048},{"x":1381346127,"y":99160.8748},{"x":1381346368,"y":99119.073},{"x":1381346609,"y":99142.9597},{"x":1381346850,"y":99107.1296},{"x":1381347091,"y":99131.0164},{"x":1381347332,"y":99202.6765},{"x":1381347573,"y":99071.2996},{"x":1381347814,"y":99029.4978},{"x":1381348055,"y":98868.2624},{"x":1381348296,"y":98898.1208},{"x":1381348537,"y":98969.781},{"x":1381348778,"y":98874.2341},{"x":1381348800,"y":98886.1775},{"x":1381377600,"y":98886.1775},{"x":1381411801,"y":99913.3065},{"x":1381412042,"y":99996.91},{"x":1381412283,"y":100074.5418},{"x":1381412524,"y":100170.0887},{"x":1381412765,"y":100110.3719},{"x":1381413006,"y":100086.4852},{"x":1381413247,"y":100170.0887},{"x":1381413488,"y":100193.9754},{"x":1381413729,"y":100176.0604},{"x":1381413970,"y":100229.8055},{"x":1381414211,"y":100211.8905},{"x":1381414452,"y":100143.2162},{"x":1381414693,"y":100143.2162},{"x":1381414934,"y":100164.117},{"x":1381415175,"y":100188.0038},{"x":1381415416,"y":100253.6923},{"x":1381415657,"y":100223.8338},{"x":1381415898,"y":100331.3241},{"x":1381416139,"y":100349.2391},{"x":1381416380,"y":100399.9984},{"x":1381416621,"y":100367.1542},{"x":1381416862,"y":100379.0975},{"x":1381417103,"y":100289.5223},{"x":1381417344,"y":100205.9188},{"x":1381417585,"y":100146.202},{"x":1381417826,"y":100134.2586},{"x":1381418067,"y":100182.0321},{"x":1381418308,"y":100211.8905},{"x":1381418549,"y":100205.9188},{"x":1381418790,"y":100241.7489},{"x":1381419031,"y":100331.3241},{"x":1381419272,"y":100373.1259},{"x":1381419513,"y":100474.6444},{"x":1381419754,"y":100468.6727},{"x":1381419995,"y":100528.3895},{"x":1381420236,"y":100540.3329},{"x":1381420477,"y":100564.2196},{"x":1381420718,"y":100564.2196},{"x":1381420959,"y":100558.2479},{"x":1381421200,"y":100579.1488},{"x":1381421441,"y":100540.3329},{"x":1381421682,"y":100540.3329},{"x":1381421923,"y":100573.1771},{"x":1381422164,"y":100528.3895},{"x":1381422405,"y":100546.3046},{"x":1381422646,"y":100552.2763},{"x":1381422887,"y":100600.0497},{"x":1381423128,"y":100600.0497},{"x":1381423369,"y":100570.1913},{"x":1381423610,"y":100600.0497},{"x":1381423851,"y":100576.163},{"x":1381424092,"y":100594.078},{"x":1381424333,"y":100570.1913},{"x":1381424574,"y":100525.4037},{"x":1381424815,"y":100498.5311},{"x":1381425056,"y":100510.4745},{"x":1381425297,"y":100546.3046},{"x":1381425538,"y":100510.4745},{"x":1381425779,"y":100492.5595},{"x":1381426020,"y":100471.6586},{"x":1381426261,"y":100462.7011},{"x":1381426502,"y":100492.5595},{"x":1381426743,"y":100486.5878},{"x":1381426984,"y":100504.5028},{"x":1381427225,"y":100510.4745},{"x":1381427466,"y":100510.4745},{"x":1381427707,"y":100570.1913},{"x":1381427948,"y":100576.163},{"x":1381428189,"y":100570.1913},{"x":1381428430,"y":100486.5878},{"x":1381428671,"y":100426.871},{"x":1381428912,"y":100474.6444},{"x":1381429153,"y":100432.8427},{"x":1381429394,"y":100474.6444},{"x":1381429635,"y":100492.5595},{"x":1381429876,"y":100456.7294},{"x":1381430117,"y":100492.5595},{"x":1381430358,"y":100474.6444},{"x":1381430599,"y":100528.3895},{"x":1381430840,"y":100534.3612},{"x":1381431081,"y":100498.5311},{"x":1381431322,"y":100549.2904},{"x":1381431563,"y":100510.4745},{"x":1381431804,"y":100647.8231},{"x":1381432045,"y":100826.9736},{"x":1381432286,"y":100892.662},{"x":1381432527,"y":101024.039},{"x":1381432768,"y":100940.4355},{"x":1381433009,"y":100916.5488},{"x":1381433250,"y":100946.4072},{"x":1381433491,"y":100946.4072},{"x":1381433732,"y":100892.662},{"x":1381433973,"y":100898.6337},{"x":1381434214,"y":100898.6337},{"x":1381434455,"y":100874.747},{"x":1381434696,"y":100904.6054},{"x":1381434937,"y":100880.7187},{"x":1381435178,"y":101030.0107},{"x":1381435200,"y":101024.039},{"x":1381464000,"y":101024.039},{"x":1381498201,"y":100880.7187},{"x":1381498442,"y":100850.8603},{"x":1381498683,"y":100928.4921},{"x":1381498924,"y":100964.3222},{"x":1381499165,"y":101053.8974},{"x":1381499406,"y":101077.7841},{"x":1381499647,"y":101041.954},{"x":1381499888,"y":101185.2744},{"x":1381500129,"y":101274.8496},{"x":1381500370,"y":101239.0195},{"x":1381500611,"y":101268.8779},{"x":1381500852,"y":101244.9912},{"x":1381501093,"y":101227.0761},{"x":1381501334,"y":101149.4443},{"x":1381501575,"y":101179.3027},{"x":1381501816,"y":101197.2177},{"x":1381502057,"y":101143.4726},{"x":1381502298,"y":101137.5009},{"x":1381502539,"y":101077.7841},{"x":1381502780,"y":101077.7841},{"x":1381503021,"y":100988.2089},{"x":1381503262,"y":101006.124},{"x":1381503503,"y":101083.7558},{"x":1381503744,"y":101089.7275},{"x":1381503985,"y":101107.6425},{"x":1381504226,"y":101167.3593},{"x":1381504467,"y":101149.4443},{"x":1381504708,"y":101083.7558},{"x":1381504949,"y":101101.6708},{"x":1381505190,"y":101149.4443},{"x":1381505431,"y":101131.5292},{"x":1381505672,"y":101239.0195},{"x":1381505913,"y":101334.5664},{"x":1381506154,"y":101394.2832},{"x":1381506395,"y":101385.3257},{"x":1381506636,"y":101418.1699},{"x":1381506877,"y":101406.2265},{"x":1381507118,"y":101465.9433},{"x":1381507359,"y":101519.6885},{"x":1381507600,"y":101519.6885},{"x":1381507841,"y":101555.5185},{"x":1381508082,"y":101573.4336},{"x":1381508323,"y":101591.3486},{"x":1381508564,"y":101639.1221},{"x":1381508805,"y":101645.0937},{"x":1381509046,"y":101603.292},{"x":1381509287,"y":101573.4336},{"x":1381509528,"y":101591.3486},{"x":1381509769,"y":101621.207},{"x":1381510010,"y":101621.207},{"x":1381510251,"y":101603.292},{"x":1381510492,"y":101609.2637},{"x":1381510733,"y":101639.1221},{"x":1381510974,"y":101585.3769},{"x":1381511215,"y":101645.0937},{"x":1381511456,"y":101704.8105},{"x":1381511697,"y":101663.0088},{"x":1381511938,"y":101525.6601},{"x":1381512179,"y":101519.6885},{"x":1381512420,"y":101561.4902},{"x":1381512661,"y":101555.5185},{"x":1381512902,"y":101561.4902},{"x":1381513143,"y":101556.1157},{"x":1381513384,"y":101501.7734},{"x":1381513625,"y":101561.4902},{"x":1381513866,"y":101519.6885},{"x":1381514107,"y":101531.6318},{"x":1381514348,"y":101555.5185},{"x":1381514589,"y":101579.4053},{"x":1381514830,"y":101633.1504},{"x":1381515071,"y":101621.207},{"x":1381515312,"y":101597.3203},{"x":1381515553,"y":101603.292},{"x":1381515794,"y":101633.1504},{"x":1381516035,"y":101612.2495},{"x":1381516276,"y":101591.3486},{"x":1381516517,"y":101588.3628},{"x":1381516758,"y":101555.5185},{"x":1381516999,"y":101561.4902},{"x":1381517240,"y":101579.4053},{"x":1381517481,"y":101561.4902},{"x":1381517722,"y":101549.5469},{"x":1381517963,"y":101543.5752},{"x":1381518204,"y":101483.8584},{"x":1381518445,"y":101501.7734},{"x":1381518686,"y":101531.6318},{"x":1381518927,"y":101439.0708},{"x":1381519168,"y":101448.0283},{"x":1381519409,"y":101483.8584},{"x":1381519650,"y":101495.8017},{"x":1381519891,"y":101596.7231},{"x":1381520132,"y":101537.6035},{"x":1381520373,"y":101486.8442},{"x":1381520614,"y":101483.8584},{"x":1381520855,"y":101465.9433},{"x":1381521096,"y":101418.1699},{"x":1381521337,"y":101513.7168},{"x":1381521578,"y":101663.0088},{"x":1381521600,"y":101668.9805},{"x":1381521600,"y":101668.9805}],"SeriesType":2,"Color":"","ScatterMarkerSymbol":"none"},"Daily Performance":{"Name":"Daily Performance","Unit":"%","Index":1,"Values":[{"x":1381104000,"y":0.00288168},{"x":1381190400,"y":-1.176387},{"x":1381276800,"y":0.06042592},{"x":1381363200,"y":2.161942},{"x":1381521600,"y":0.638404}],"SeriesType":3,"Color":"","ScatterMarkerSymbol":"none"}}},"Benchmark":{"Name":"Benchmark","ChartType":0,"Series":{"Benchmark":{"Name":"Benchmark","Unit":"$","Index":0,"Values":[{"x":1381104000,"y":161.8055},{"x":1381190400,"y":159.9019},{"x":1381276800,"y":159.9985},{"x":1381363200,"y":163.4578},{"x":1381521600,"y":164.5014}],"SeriesType":0,"Color":"","ScatterMarkerSymbol":"none"}}}},"Orders":{"1":{"DurationValue":"9999-12-31T23:59:59.9999999","Type":0,"Id":1,"ContingentId":0,"BrokerId":["1"],"Symbol":{"$type":"QuantConnect.Symbol, QuantConnect.Common","Value":"SPY","ID":"SPY R735QTJ8XC9X","Permtick":"SPY"},"Price":161.79581527200,"PriceCurrency":"USD","Time":"2013-10-07T13:30:01Z","Quantity":618,"Status":3,"Duration":0,"Tag":"","SecurityType":1,"Direction":0,"AbsoluteQuantity":618.0,"Value":99989.81383809600}},"ProfitLoss":{},"Statistics":{"Total Trades":"1","Average Win":"0%","Average Loss":"0%","Compounding Annual Return":"264.956%","Drawdown":"2.200%","Expectancy":"0","Net Profit":"0%","Sharpe Ratio":"4.411","Loss Rate":"0%","Win Rate":"0%","Profit-Loss Ratio":"0","Alpha":"0.002","Beta":"1","Annual Standard Deviation":"0.193","Annual Variance":"0.037","Information Ratio":"6.816","Tracking Error":"0","Treynor Ratio":"0.851","Total Fees":"$3.09"},"RuntimeStatistics":{"Unrealized":"$1,668.98","Fees":"-$3.09","Net Profit":"$0.00","Return":"1.67 %","Equity":"$101,668.98"},"RollingWindow":{"M1_20131011":{"TradeStatistics":{"StartDateTime":null,"EndDateTime":null,"TotalNumberOfTrades":0,"NumberOfWinningTrades":0,"NumberOfLosingTrades":0,"TotalProfitLoss":0.0,"TotalProfit":0.0,"TotalLoss":0.0,"LargestProfit":0.0,"LargestLoss":0.0,"AverageProfitLoss":0.0,"AverageProfit":0.0,"AverageLoss":0.0,"AverageTradeDuration":"00:00:00","AverageWinningTradeDuration":"00:00:00","AverageLosingTradeDuration":"00:00:00","MaxConsecutiveWinningTrades":0,"MaxConsecutiveLosingTrades":0,"ProfitLossRatio":0.0,"WinLossRatio":0.0,"WinRate":0.0,"LossRate":0.0,"AverageMAE":0.0,"AverageMFE":0.0,"LargestMAE":0.0,"LargestMFE":0.0,"MaximumClosedTradeDrawdown":0.0,"MaximumIntraTradeDrawdown":0.0,"ProfitLossStandardDeviation":0.0,"ProfitLossDownsideDeviation":0.0,"ProfitFactor":0.0,"SharpeRatio":0.0,"SortinoRatio":0.0,"ProfitToMaxDrawdownRatio":0.0,"MaximumEndTradeDrawdown":0.0,"AverageEndTradeDrawdown":0.0,"MaximumDrawdownDuration":"00:00:00","TotalFees":0.0},"PortfolioStatistics":{"AverageWinRate":0.0,"AverageLossRate":0.0,"ProfitLossRatio":0.0,"WinRate":0.0,"LossRate":0.0,"Expectancy":0.0,"CompoundingAnnualReturn":2.64956362416675,"Drawdown":0.022,"TotalNetProfit":0.0,"SharpeRatio":4.4109088379337962404345509085,"Alpha":0.0016062808331789720432993152,"Beta":0.999766514514026,"AnnualStandardDeviation":0.192790737157548,"AnnualVariance":0.037168268333750568,"InformationRatio":6.8164718125993459906993003377,"TrackingError":0.000206566929759673,"TreynorRatio":0.8505809647099055260356780684},"ClosedTrades":[]},"M3_20131011":{"TradeStatistics":{"StartDateTime":null,"EndDateTime":null,"TotalNumberOfTrades":0,"NumberOfWinningTrades":0,"NumberOfLosingTrades":0,"TotalProfitLoss":0.0,"TotalProfit":0.0,"TotalLoss":0.0,"LargestProfit":0.0,"LargestLoss":0.0,"AverageProfitLoss":0.0,"AverageProfit":0.0,"AverageLoss":0.0,"AverageTradeDuration":"00:00:00","AverageWinningTradeDuration":"00:00:00","AverageLosingTradeDuration":"00:00:00","MaxConsecutiveWinningTrades":0,"MaxConsecutiveLosingTrades":0,"ProfitLossRatio":0.0,"WinLossRatio":0.0,"WinRate":0.0,"LossRate":0.0,"AverageMAE":0.0,"AverageMFE":0.0,"LargestMAE":0.0,"LargestMFE":0.0,"MaximumClosedTradeDrawdown":0.0,"MaximumIntraTradeDrawdown":0.0,"ProfitLossStandardDeviation":0.0,"ProfitLossDownsideDeviation":0.0,"ProfitFactor":0.0,"SharpeRatio":0.0,"SortinoRatio":0.0,"ProfitToMaxDrawdownRatio":0.0,"MaximumEndTradeDrawdown":0.0,"AverageEndTradeDrawdown":0.0,"MaximumDrawdownDuration":"00:00:00","TotalFees":0.0},"PortfolioStatistics":{"AverageWinRate":0.0,"AverageLossRate":0.0,"ProfitLossRatio":0.0,"WinRate":0.0,"LossRate":0.0,"Expectancy":0.0,"CompoundingAnnualReturn":2.64956362416675,"Drawdown":0.022,"TotalNetProfit":0.0,"SharpeRatio":4.4109088379337962404345509085,"Alpha":0.0016062808331789720432993152,"Beta":0.999766514514026,"AnnualStandardDeviation":0.192790737157548,"AnnualVariance":0.037168268333750568,"InformationRatio":6.8164718125993459906993003377,"TrackingError":0.000206566929759673,"TreynorRatio":0.8505809647099055260356780684},"ClosedTrades":[]},"M6_20131011":{"TradeStatistics":{"StartDateTime":null,"EndDateTime":null,"TotalNumberOfTrades":0,"NumberOfWinningTrades":0,"NumberOfLosingTrades":0,"TotalProfitLoss":0.0,"TotalProfit":0.0,"TotalLoss":0.0,"LargestProfit":0.0,"LargestLoss":0.0,"AverageProfitLoss":0.0,"AverageProfit":0.0,"AverageLoss":0.0,"AverageTradeDuration":"00:00:00","AverageWinningTradeDuration":"00:00:00","AverageLosingTradeDuration":"00:00:00","MaxConsecutiveWinningTrades":0,"MaxConsecutiveLosingTrades":0,"ProfitLossRatio":0.0,"WinLossRatio":0.0,"WinRate":0.0,"LossRate":0.0,"AverageMAE":0.0,"AverageMFE":0.0,"LargestMAE":0.0,"LargestMFE":0.0,"MaximumClosedTradeDrawdown":0.0,"MaximumIntraTradeDrawdown":0.0,"ProfitLossStandardDeviation":0.0,"ProfitLossDownsideDeviation":0.0,"ProfitFactor":0.0,"SharpeRatio":0.0,"SortinoRatio":0.0,"ProfitToMaxDrawdownRatio":0.0,"MaximumEndTradeDrawdown":0.0,"AverageEndTradeDrawdown":0.0,"MaximumDrawdownDuration":"00:00:00","TotalFees":0.0},"PortfolioStatistics":{"AverageWinRate":0.0,"AverageLossRate":0.0,"ProfitLossRatio":0.0,"WinRate":0.0,"LossRate":0.0,"Expectancy":0.0,"CompoundingAnnualReturn":2.64956362416675,"Drawdown":0.022,"TotalNetProfit":0.0,"SharpeRatio":4.4109088379337962404345509085,"Alpha":0.0016062808331789720432993152,"Beta":0.999766514514026,"AnnualStandardDeviation":0.192790737157548,"AnnualVariance":0.037168268333750568,"InformationRatio":6.8164718125993459906993003377,"TrackingError":0.000206566929759673,"TreynorRatio":0.8505809647099055260356780684},"ClosedTrades":[]},"M12_20131011":{"TradeStatistics":{"StartDateTime":null,"EndDateTime":null,"TotalNumberOfTrades":0,"NumberOfWinningTrades":0,"NumberOfLosingTrades":0,"TotalProfitLoss":0.0,"TotalProfit":0.0,"TotalLoss":0.0,"LargestProfit":0.0,"LargestLoss":0.0,"AverageProfitLoss":0.0,"AverageProfit":0.0,"AverageLoss":0.0,"AverageTradeDuration":"00:00:00","AverageWinningTradeDuration":"00:00:00","AverageLosingTradeDuration":"00:00:00","MaxConsecutiveWinningTrades":0,"MaxConsecutiveLosingTrades":0,"ProfitLossRatio":0.0,"WinLossRatio":0.0,"WinRate":0.0,"LossRate":0.0,"AverageMAE":0.0,"AverageMFE":0.0,"LargestMAE":0.0,"LargestMFE":0.0,"MaximumClosedTradeDrawdown":0.0,"MaximumIntraTradeDrawdown":0.0,"ProfitLossStandardDeviation":0.0,"ProfitLossDownsideDeviation":0.0,"ProfitFactor":0.0,"SharpeRatio":0.0,"SortinoRatio":0.0,"ProfitToMaxDrawdownRatio":0.0,"MaximumEndTradeDrawdown":0.0,"AverageEndTradeDrawdown":0.0,"MaximumDrawdownDuration":"00:00:00","TotalFees":0.0},"PortfolioStatistics":{"AverageWinRate":0.0,"AverageLossRate":0.0,"ProfitLossRatio":0.0,"WinRate":0.0,"LossRate":0.0,"Expectancy":0.0,"CompoundingAnnualReturn":2.64956362416675,"Drawdown":0.022,"TotalNetProfit":0.0,"SharpeRatio":4.4109088379337962404345509085,"Alpha":0.0016062808331789720432993152,"Beta":0.999766514514026,"AnnualStandardDeviation":0.192790737157548,"AnnualVariance":0.037168268333750568,"InformationRatio":6.8164718125993459906993003377,"TrackingError":0.000206566929759673,"TreynorRatio":0.8505809647099055260356780684},"ClosedTrades":[]}},"TotalPerformance":{"TradeStatistics":{"StartDateTime":null,"EndDateTime":null,"TotalNumberOfTrades":0,"NumberOfWinningTrades":0,"NumberOfLosingTrades":0,"TotalProfitLoss":0.0,"TotalProfit":0.0,"TotalLoss":0.0,"LargestProfit":0.0,"LargestLoss":0.0,"AverageProfitLoss":0.0,"AverageProfit":0.0,"AverageLoss":0.0,"AverageTradeDuration":"00:00:00","AverageWinningTradeDuration":"00:00:00","AverageLosingTradeDuration":"00:00:00","MaxConsecutiveWinningTrades":0,"MaxConsecutiveLosingTrades":0,"ProfitLossRatio":0.0,"WinLossRatio":0.0,"WinRate":0.0,"LossRate":0.0,"AverageMAE":0.0,"AverageMFE":0.0,"LargestMAE":0.0,"LargestMFE":0.0,"MaximumClosedTradeDrawdown":0.0,"MaximumIntraTradeDrawdown":0.0,"ProfitLossStandardDeviation":0.0,"ProfitLossDownsideDeviation":0.0,"ProfitFactor":0.0,"SharpeRatio":0.0,"SortinoRatio":0.0,"ProfitToMaxDrawdownRatio":0.0,"MaximumEndTradeDrawdown":0.0,"AverageEndTradeDrawdown":0.0,"MaximumDrawdownDuration":"00:00:00","TotalFees":0.0},"PortfolioStatistics":{"AverageWinRate":0.0,"AverageLossRate":0.0,"ProfitLossRatio":0.0,"WinRate":0.0,"LossRate":0.0,"Expectancy":0.0,"CompoundingAnnualReturn":2.64956362416675,"Drawdown":0.022,"TotalNetProfit":0.0,"SharpeRatio":4.4109088379337962404345509085,"Alpha":0.0016062808331789720432993152,"Beta":0.999766514514026,"AnnualStandardDeviation":0.192790737157548,"AnnualVariance":0.037168268333750568,"InformationRatio":6.8164718125993459906993003377,"TrackingError":0.000206566929759673,"TreynorRatio":0.8505809647099055260356780684},"ClosedTrades":[]}}
+2017-02-02T18:28:34.7811590Z TRACE:: BacktestingResultHandler.SendAnalysisResult(): Processed final packet
+2017-02-02T18:28:34.7817750Z TRACE:: FileSystemDataFeed.Exit(): Exit triggered.
+2017-02-02T18:28:34.7822880Z TRACE:: BrokerageTransactionHandler.Run(): Ending Thread...
+2017-02-02T18:28:34.7826240Z TRACE:: StateCheck.Ping.Run(): Exited thread.
+2017-02-02T18:28:34.7827470Z TRACE:: FileSystemDataFeed.Run(): Ending Thread... 
+2017-02-02T18:28:34.7970580Z TRACE:: Debug: Your log was successfully created and can be retrieved from: /lean/TestProject/bin/Debug/log.txt
+2017-02-02T18:28:34.7972360Z TRACE:: BacktestingResultHandler.Run(): Ending Thread...
+2017-02-02T18:28:34.8830030Z TRACE:: Waiting for threads to exit...
+2017-02-02T18:28:34.8838420Z TRACE:: Engine.Run(): Disconnecting from brokerage...
+2017-02-02T18:28:34.8840590Z TRACE:: Engine.Run(): Disposing of setup handler...
+2017-02-02T18:28:34.8843280Z TRACE:: Engine.Main(): Analysis Completed and Results Posted.
+2017-02-02T18:28:34.8845100Z TRACE:: FileSystemDataFeed.Exit(): Exit triggered.
+2017-02-02T18:28:34.8845590Z TRACE:: Engine.Main(): Packet removed from queue: BasicTemplateAlgorithm
+2017-02-02T18:30:47.5715290Z TRACE:: JobQueue.NextJob(): Selected QuantConnect.Algorithm.CSharp.dll
+2017-02-02T18:30:47.5829450Z TRACE:: Config.Get(): Configuration key not found. Key: history-provider - Using default value: SubscriptionDataReaderHistoryProvider
+2017-02-02T18:30:47.5910750Z TRACE:: Config.GetValue(): algorithm-manager-time-loop-maximum - Using default value: 10
+2017-02-02T18:30:47.5937350Z TRACE:: Config.Get(): Configuration key not found. Key: ironpython-location - Using default value: ../ironpython/Lib
+2017-02-02T18:30:47.6004830Z TRACE:: Loader.TryCreateILAlgorithm(): Loading only the algorithm assembly
+2017-02-02T18:30:47.6641960Z TRACE:: Loader.TryCreateILAlgorithm(): Loaded BasicTemplateAlgorithm
+2017-02-02T18:30:47.7170860Z TRACE:: Config.Get(): Configuration key not found. Key: security-data-feeds - Using default value: 
+2017-02-02T18:30:47.8792020Z TRACE:: BacktestingResultHandler(): Sample Period Set: 04.00
+2017-02-02T18:30:47.8802100Z TRACE:: Time.TradeableDates(): Security Count: 1
+2017-02-02T18:30:47.8825390Z TRACE:: Config.GetValue(): forward-console-messages - Using default value: True
+2017-02-02T18:30:47.8829020Z TRACE:: JOB HANDLERS: 
+2017-02-02T18:30:47.8829590Z TRACE::          DataFeed:     QuantConnect.Lean.Engine.DataFeeds.FileSystemDataFeed
+2017-02-02T18:30:47.8830090Z TRACE::          Setup:        QuantConnect.Lean.Engine.Setup.ConsoleSetupHandler
+2017-02-02T18:30:47.8830570Z TRACE::          RealTime:     QuantConnect.Lean.Engine.RealTime.BacktestingRealTimeHandler
+2017-02-02T18:30:47.8831040Z TRACE::          Results:      QuantConnect.Lean.Engine.Results.BacktestingResultHandler
+2017-02-02T18:30:47.8831420Z TRACE::          Transactions: QuantConnect.Lean.Engine.TransactionHandlers.BacktestingTransactionHandler
+2017-02-02T18:30:47.8831850Z TRACE::          Commands:     QuantConnect.Queues.EmptyCommandQueueHandler
+2017-02-02T18:30:47.8832320Z TRACE::          History Provider:     QuantConnect.Lean.Engine.HistoricalData.SubscriptionDataReaderHistoryProvider
+2017-02-02T18:30:47.8980330Z TRACE:: Config.GetValue(): send-via-api - Using default value: False
+2017-02-02T18:30:47.8986630Z TRACE:: Debug: Launching analysis for BasicTemplateAlgorithm with LEAN Engine v2.2.0.2
+2017-02-02T18:30:47.9126100Z TRACE:: AlgorithmManager.Run(): Begin DataStream - Start: 10/07/2013 00:00:00 Stop: 10/11/2013 23:59:59
+2017-02-02T18:30:47.9229330Z TRACE:: FileSystemDataFeed.GetEnumerator(): Begin: 10/07/2013 04:00:00 UTC
+2017-02-02T18:30:48.2128010Z TRACE:: Debug: Purchased Stock
+2017-02-02T18:30:52.4487970Z TRACE:: FileSystemDataFeed.Run(): Data Feed Completed at 10/11/2013 20:00:00 UTC
+2017-02-02T18:30:52.4490970Z TRACE:: AlgorithmManager.Run(): Firing On End Of Algorithm...
+2017-02-02T18:30:52.4493030Z TRACE:: Engine.Run(): Exiting Algorithm Manager
+2017-02-02T18:30:52.6189520Z TRACE:: Debug: Algorithm Id:(BasicTemplateAlgorithm) completed in 4.69 seconds at 25k data points per second. Processing total of 117,005 data points.
+2017-02-02T18:30:52.6505750Z TRACE:: STATISTICS:: Total Trades 1
+2017-02-02T18:30:52.6506350Z TRACE:: STATISTICS:: Average Win 0%
+2017-02-02T18:30:52.6506700Z TRACE:: STATISTICS:: Average Loss 0%
+2017-02-02T18:30:52.6507150Z TRACE:: STATISTICS:: Compounding Annual Return 264.956%
+2017-02-02T18:30:52.6507560Z TRACE:: STATISTICS:: Drawdown 2.200%
+2017-02-02T18:30:52.6507900Z TRACE:: STATISTICS:: Expectancy 0
+2017-02-02T18:30:52.6508240Z TRACE:: STATISTICS:: Net Profit 0%
+2017-02-02T18:30:52.6508620Z TRACE:: STATISTICS:: Sharpe Ratio 4.411
+2017-02-02T18:30:52.6509000Z TRACE:: STATISTICS:: Loss Rate 0%
+2017-02-02T18:30:52.6509360Z TRACE:: STATISTICS:: Win Rate 0%
+2017-02-02T18:30:52.6509710Z TRACE:: STATISTICS:: Profit-Loss Ratio 0
+2017-02-02T18:30:52.6510100Z TRACE:: STATISTICS:: Alpha 0.002
+2017-02-02T18:30:52.6510480Z TRACE:: STATISTICS:: Beta 1
+2017-02-02T18:30:52.6510850Z TRACE:: STATISTICS:: Annual Standard Deviation 0.193
+2017-02-02T18:30:52.6511210Z TRACE:: STATISTICS:: Annual Variance 0.037
+2017-02-02T18:30:52.6511510Z TRACE:: STATISTICS:: Information Ratio 6.816
+2017-02-02T18:30:52.6511790Z TRACE:: STATISTICS:: Tracking Error 0
+2017-02-02T18:30:52.6512110Z TRACE:: STATISTICS:: Treynor Ratio 0.851
+2017-02-02T18:30:52.6512440Z TRACE:: STATISTICS:: Total Fees $3.09
+2017-02-02T18:30:52.6573740Z TRACE:: {
+  "Charts": {
+    "Strategy Equity": {
+      "Name": "Strategy Equity",
+      "ChartType": 0,
+      "Series": {
+        "Equity": {
+          "Name": "Equity",
+          "Unit": "$",
+          "Index": 0,
+          "Values": [
+            {
+              "x": 1381118400,
+              "y": 100000.0
+            },
+            {
+              "x": 1381152601,
+              "y": 99996.91
+            },
+            {
+              "x": 1381152842,
+              "y": 99990.9383
+            },
+            {
+              "x": 1381153083,
+              "y": 100032.7401
+            },
+            {
+              "x": 1381153324,
+              "y": 100086.4852
+            },
+            {
+              "x": 1381153565,
+              "y": 100098.4286
+            },
+            {
+              "x": 1381153806,
+              "y": 100235.7772
+            },
+            {
+              "x": 1381154047,
+              "y": 100193.9754
+            },
+            {
+              "x": 1381154288,
+              "y": 100182.0321
+            },
+            {
+              "x": 1381154529,
+              "y": 100116.3436
+            },
+            {
+              "x": 1381154770,
+              "y": 100176.0604
+            },
+            {
+              "x": 1381155011,
+              "y": 100367.1542
+            },
+            {
+              "x": 1381155252,
+              "y": 100408.9559
+            },
+            {
+              "x": 1381155493,
+              "y": 100397.0126
+            },
+            {
+              "x": 1381155734,
+              "y": 100432.8427
+            },
+            {
+              "x": 1381155975,
+              "y": 100474.6444
+            },
+            {
+              "x": 1381156216,
+              "y": 100498.5311
+            },
+            {
+              "x": 1381156457,
+              "y": 100504.5028
+            },
+            {
+              "x": 1381156698,
+              "y": 100426.871
+            },
+            {
+              "x": 1381156939,
+              "y": 100414.9276
+            },
+            {
+              "x": 1381157180,
+              "y": 100420.8993
+            },
+            {
+              "x": 1381157421,
+              "y": 100432.8427
+            },
+            {
+              "x": 1381157662,
+              "y": 100486.5878
+            },
+            {
+              "x": 1381157903,
+              "y": 100456.7294
+            },
+            {
+              "x": 1381158144,
+              "y": 100349.2391
+            },
+            {
+              "x": 1381158385,
+              "y": 100337.2958
+            },
+            {
+              "x": 1381158626,
+              "y": 100367.1542
+            },
+            {
+              "x": 1381158867,
+              "y": 100414.9276
+            },
+            {
+              "x": 1381159108,
+              "y": 100331.3241
+            },
+            {
+              "x": 1381159349,
+              "y": 100355.2108
+            },
+            {
+              "x": 1381159590,
+              "y": 100367.1542
+            },
+            {
+              "x": 1381159831,
+              "y": 100355.2108
+            },
+            {
+              "x": 1381160072,
+              "y": 100438.8143
+            },
+            {
+              "x": 1381160313,
+              "y": 100444.786
+            },
+            {
+              "x": 1381160554,
+              "y": 100414.9276
+            },
+            {
+              "x": 1381160795,
+              "y": 100498.5311
+            },
+            {
+              "x": 1381161036,
+              "y": 100531.3754
+            },
+            {
+              "x": 1381161277,
+              "y": 100468.6727
+            },
+            {
+              "x": 1381161518,
+              "y": 100492.5595
+            },
+            {
+              "x": 1381161759,
+              "y": 100402.9843
+            },
+            {
+              "x": 1381162000,
+              "y": 100432.8427
+            },
+            {
+              "x": 1381162241,
+              "y": 100432.8427
+            },
+            {
+              "x": 1381162482,
+              "y": 100426.871
+            },
+            {
+              "x": 1381162723,
+              "y": 100426.871
+            },
+            {
+              "x": 1381162964,
+              "y": 100379.0975
+            },
+            {
+              "x": 1381163205,
+              "y": 100367.1542
+            },
+            {
+              "x": 1381163446,
+              "y": 100259.6639
+            },
+            {
+              "x": 1381163687,
+              "y": 100295.494
+            },
+            {
+              "x": 1381163928,
+              "y": 100295.494
+            },
+            {
+              "x": 1381164169,
+              "y": 100295.494
+            },
+            {
+              "x": 1381164410,
+              "y": 100337.2958
+            },
+            {
+              "x": 1381164651,
+              "y": 100313.4091
+            },
+            {
+              "x": 1381164892,
+              "y": 100343.2675
+            },
+            {
+              "x": 1381165133,
+              "y": 100235.7772
+            },
+            {
+              "x": 1381165374,
+              "y": 100301.4657
+            },
+            {
+              "x": 1381165615,
+              "y": 100253.6923
+            },
+            {
+              "x": 1381165856,
+              "y": 100313.4091
+            },
+            {
+              "x": 1381166097,
+              "y": 100349.2391
+            },
+            {
+              "x": 1381166338,
+              "y": 100385.0692
+            },
+            {
+              "x": 1381166579,
+              "y": 100385.0692
+            },
+            {
+              "x": 1381166820,
+              "y": 100373.1259
+            },
+            {
+              "x": 1381167061,
+              "y": 100411.9418
+            },
+            {
+              "x": 1381167302,
+              "y": 100391.0409
+            },
+            {
+              "x": 1381167543,
+              "y": 100313.4091
+            },
+            {
+              "x": 1381167784,
+              "y": 100313.4091
+            },
+            {
+              "x": 1381168025,
+              "y": 100355.2108
+            },
+            {
+              "x": 1381168266,
+              "y": 100337.2958
+            },
+            {
+              "x": 1381168507,
+              "y": 100349.2391
+            },
+            {
+              "x": 1381168748,
+              "y": 100438.8143
+            },
+            {
+              "x": 1381168989,
+              "y": 100558.2479
+            },
+            {
+              "x": 1381169230,
+              "y": 100420.8993
+            },
+            {
+              "x": 1381169471,
+              "y": 100444.786
+            },
+            {
+              "x": 1381169712,
+              "y": 100426.871
+            },
+            {
+              "x": 1381169953,
+              "y": 100426.871
+            },
+            {
+              "x": 1381170194,
+              "y": 100432.8427
+            },
+            {
+              "x": 1381170435,
+              "y": 100426.871
+            },
+            {
+              "x": 1381170676,
+              "y": 100444.786
+            },
+            {
+              "x": 1381170917,
+              "y": 100486.5878
+            },
+            {
+              "x": 1381171158,
+              "y": 100486.5878
+            },
+            {
+              "x": 1381171399,
+              "y": 100397.0126
+            },
+            {
+              "x": 1381171640,
+              "y": 100414.9276
+            },
+            {
+              "x": 1381171881,
+              "y": 100444.786
+            },
+            {
+              "x": 1381172122,
+              "y": 100462.7011
+            },
+            {
+              "x": 1381172363,
+              "y": 100480.6161
+            },
+            {
+              "x": 1381172604,
+              "y": 100456.7294
+            },
+            {
+              "x": 1381172845,
+              "y": 100444.786
+            },
+            {
+              "x": 1381173086,
+              "y": 100468.6727
+            },
+            {
+              "x": 1381173327,
+              "y": 100450.7577
+            },
+            {
+              "x": 1381173568,
+              "y": 100456.7294
+            },
+            {
+              "x": 1381173809,
+              "y": 100337.2958
+            },
+            {
+              "x": 1381174050,
+              "y": 100302.0629
+            },
+            {
+              "x": 1381174291,
+              "y": 100295.494
+            },
+            {
+              "x": 1381174532,
+              "y": 100259.6639
+            },
+            {
+              "x": 1381174773,
+              "y": 100229.8055
+            },
+            {
+              "x": 1381175014,
+              "y": 100223.8338
+            },
+            {
+              "x": 1381175255,
+              "y": 100122.3153
+            },
+            {
+              "x": 1381175496,
+              "y": 100128.287
+            },
+            {
+              "x": 1381175737,
+              "y": 100062.5985
+            },
+            {
+              "x": 1381175978,
+              "y": 100026.7684
+            },
+            {
+              "x": 1381176000,
+              "y": 100002.8817
+            },
+            {
+              "x": 1381204800,
+              "y": 100002.8817
+            },
+            {
+              "x": 1381239001,
+              "y": 99996.91
+            },
+            {
+              "x": 1381239242,
+              "y": 99973.0233
+            },
+            {
+              "x": 1381239483,
+              "y": 99841.6463
+            },
+            {
+              "x": 1381239724,
+              "y": 99817.7596
+            },
+            {
+              "x": 1381239965,
+              "y": 100038.7118
+            },
+            {
+              "x": 1381240206,
+              "y": 99961.0799
+            },
+            {
+              "x": 1381240447,
+              "y": 99883.4481
+            },
+            {
+              "x": 1381240688,
+              "y": 100026.7684
+            },
+            {
+              "x": 1381240929,
+              "y": 99955.1082
+            },
+            {
+              "x": 1381241170,
+              "y": 99984.9666
+            },
+            {
+              "x": 1381241411,
+              "y": 99871.5047
+            },
+            {
+              "x": 1381241652,
+              "y": 99925.2498
+            },
+            {
+              "x": 1381241893,
+              "y": 99990.9383
+            },
+            {
+              "x": 1381242134,
+              "y": 99973.0233
+            },
+            {
+              "x": 1381242375,
+              "y": 99955.1082
+            },
+            {
+              "x": 1381242616,
+              "y": 99973.0233
+            },
+            {
+              "x": 1381242857,
+              "y": 99901.3631
+            },
+            {
+              "x": 1381243098,
+              "y": 99883.4481
+            },
+            {
+              "x": 1381243339,
+              "y": 99853.5897
+            },
+            {
+              "x": 1381243580,
+              "y": 99883.4481
+            },
+            {
+              "x": 1381243821,
+              "y": 99656.5242
+            },
+            {
+              "x": 1381244062,
+              "y": 99608.7508
+            },
+            {
+              "x": 1381244303,
+              "y": 99584.8641
+            },
+            {
+              "x": 1381244544,
+              "y": 99483.3455
+            },
+            {
+              "x": 1381244785,
+              "y": 99495.2889
+            },
+            {
+              "x": 1381245026,
+              "y": 99590.8357
+            },
+            {
+              "x": 1381245267,
+              "y": 99614.7225
+            },
+            {
+              "x": 1381245508,
+              "y": 99549.034
+            },
+            {
+              "x": 1381245749,
+              "y": 99560.9773
+            },
+            {
+              "x": 1381245990,
+              "y": 99572.9207
+            },
+            {
+              "x": 1381246231,
+              "y": 99501.2605
+            },
+            {
+              "x": 1381246472,
+              "y": 99459.4588
+            },
+            {
+              "x": 1381246713,
+              "y": 99375.8553
+            },
+            {
+              "x": 1381246954,
+              "y": 99304.1951
+            },
+            {
+              "x": 1381247195,
+              "y": 99268.365
+            },
+            {
+              "x": 1381247436,
+              "y": 99250.45
+            },
+            {
+              "x": 1381247677,
+              "y": 99304.1951
+            },
+            {
+              "x": 1381247918,
+              "y": 99319.1243
+            },
+            {
+              "x": 1381248159,
+              "y": 99286.2801
+            },
+            {
+              "x": 1381248400,
+              "y": 99244.4783
+            },
+            {
+              "x": 1381248641,
+              "y": 99286.2801
+            },
+            {
+              "x": 1381248882,
+              "y": 99262.3933
+            },
+            {
+              "x": 1381249123,
+              "y": 99208.6482
+            },
+            {
+              "x": 1381249364,
+              "y": 99202.6765
+            },
+            {
+              "x": 1381249605,
+              "y": 99160.8748
+            },
+            {
+              "x": 1381249846,
+              "y": 99149.5286
+            },
+            {
+              "x": 1381250087,
+              "y": 99095.1863
+            },
+            {
+              "x": 1381250328,
+              "y": 99166.8464
+            },
+            {
+              "x": 1381250569,
+              "y": 99196.7048
+            },
+            {
+              "x": 1381250810,
+              "y": 99340.0252
+            },
+            {
+              "x": 1381251051,
+              "y": 99286.2801
+            },
+            {
+              "x": 1381251292,
+              "y": 99214.6199
+            },
+            {
+              "x": 1381251533,
+              "y": 99292.2517
+            },
+            {
+              "x": 1381251774,
+              "y": 99328.0818
+            },
+            {
+              "x": 1381252015,
+              "y": 99238.5066
+            },
+            {
+              "x": 1381252256,
+              "y": 99214.6199
+            },
+            {
+              "x": 1381252497,
+              "y": 99226.5632
+            },
+            {
+              "x": 1381252738,
+              "y": 99136.988
+            },
+            {
+              "x": 1381252979,
+              "y": 99148.9314
+            },
+            {
+              "x": 1381253220,
+              "y": 99232.5349
+            },
+            {
+              "x": 1381253461,
+              "y": 99292.2517
+            },
+            {
+              "x": 1381253702,
+              "y": 99244.4783
+            },
+            {
+              "x": 1381253943,
+              "y": 99196.7048
+            },
+            {
+              "x": 1381254184,
+              "y": 99214.6199
+            },
+            {
+              "x": 1381254425,
+              "y": 99154.9031
+            },
+            {
+              "x": 1381254666,
+              "y": 99142.9597
+            },
+            {
+              "x": 1381254907,
+              "y": 99136.988
+            },
+            {
+              "x": 1381255148,
+              "y": 99107.1296
+            },
+            {
+              "x": 1381255389,
+              "y": 99005.6111
+            },
+            {
+              "x": 1381255630,
+              "y": 99017.5544
+            },
+            {
+              "x": 1381255871,
+              "y": 99035.4695
+            },
+            {
+              "x": 1381256112,
+              "y": 99017.5544
+            },
+            {
+              "x": 1381256353,
+              "y": 98975.7527
+            },
+            {
+              "x": 1381256594,
+              "y": 98981.7244
+            },
+            {
+              "x": 1381256835,
+              "y": 99160.8748
+            },
+            {
+              "x": 1381257076,
+              "y": 99172.8181
+            },
+            {
+              "x": 1381257317,
+              "y": 99095.1863
+            },
+            {
+              "x": 1381257558,
+              "y": 99041.4412
+            },
+            {
+              "x": 1381257799,
+              "y": 99071.2996
+            },
+            {
+              "x": 1381258040,
+              "y": 98987.696
+            },
+            {
+              "x": 1381258281,
+              "y": 98993.6677
+            },
+            {
+              "x": 1381258522,
+              "y": 98969.781
+            },
+            {
+              "x": 1381258763,
+              "y": 99029.4978
+            },
+            {
+              "x": 1381259004,
+              "y": 99125.0447
+            },
+            {
+              "x": 1381259245,
+              "y": 99083.2429
+            },
+            {
+              "x": 1381259486,
+              "y": 99035.4695
+            },
+            {
+              "x": 1381259727,
+              "y": 98957.8376
+            },
+            {
+              "x": 1381259968,
+              "y": 99029.4978
+            },
+            {
+              "x": 1381260209,
+              "y": 99166.8464
+            },
+            {
+              "x": 1381260450,
+              "y": 99250.45
+            },
+            {
+              "x": 1381260691,
+              "y": 99256.4217
+            },
+            {
+              "x": 1381260932,
+              "y": 99107.1296
+            },
+            {
+              "x": 1381261173,
+              "y": 99154.9031
+            },
+            {
+              "x": 1381261414,
+              "y": 99142.9597
+            },
+            {
+              "x": 1381261655,
+              "y": 98993.6677
+            },
+            {
+              "x": 1381261896,
+              "y": 99035.4695
+            },
+            {
+              "x": 1381262137,
+              "y": 98951.866
+            },
+            {
+              "x": 1381262378,
+              "y": 98820.489
+            },
+            {
+              "x": 1381262400,
+              "y": 98826.4607
+            },
+            {
+              "x": 1381291200,
+              "y": 98826.4607
+            },
+            {
+              "x": 1381325401,
+              "y": 99017.5544
+            },
+            {
+              "x": 1381325642,
+              "y": 98898.1208
+            },
+            {
+              "x": 1381325883,
+              "y": 98963.8093
+            },
+            {
+              "x": 1381326124,
+              "y": 98838.404
+            },
+            {
+              "x": 1381326365,
+              "y": 98814.5173
+            },
+            {
+              "x": 1381326606,
+              "y": 98689.112
+            },
+            {
+              "x": 1381326847,
+              "y": 98695.0837
+            },
+            {
+              "x": 1381327088,
+              "y": 98856.3191
+            },
+            {
+              "x": 1381327329,
+              "y": 98862.2908
+            },
+            {
+              "x": 1381327570,
+              "y": 98695.0837
+            },
+            {
+              "x": 1381327811,
+              "y": 98754.8005
+            },
+            {
+              "x": 1381328052,
+              "y": 98748.8288
+            },
+            {
+              "x": 1381328293,
+              "y": 98748.8288
+            },
+            {
+              "x": 1381328534,
+              "y": 98766.7439
+            },
+            {
+              "x": 1381328775,
+              "y": 98951.866
+            },
+            {
+              "x": 1381329016,
+              "y": 98933.9509
+            },
+            {
+              "x": 1381329257,
+              "y": 98927.9792
+            },
+            {
+              "x": 1381329498,
+              "y": 98874.2341
+            },
+            {
+              "x": 1381329739,
+              "y": 98844.3757
+            },
+            {
+              "x": 1381329980,
+              "y": 98718.9704
+            },
+            {
+              "x": 1381330221,
+              "y": 98772.7156
+            },
+            {
+              "x": 1381330462,
+              "y": 98623.4235
+            },
+            {
+              "x": 1381330703,
+              "y": 98605.5085
+            },
+            {
+              "x": 1381330944,
+              "y": 98617.4519
+            },
+            {
+              "x": 1381331185,
+              "y": 98647.3103
+            },
+            {
+              "x": 1381331426,
+              "y": 98444.2731
+            },
+            {
+              "x": 1381331667,
+              "y": 98420.3864
+            },
+            {
+              "x": 1381331908,
+              "y": 98402.4714
+            },
+            {
+              "x": 1381332149,
+              "y": 98318.8679
+            },
+            {
+              "x": 1381332390,
+              "y": 98384.5563
+            },
+            {
+              "x": 1381332631,
+              "y": 98408.4431
+            },
+            {
+              "x": 1381332872,
+              "y": 98527.8767
+            },
+            {
+              "x": 1381333113,
+              "y": 98539.82
+            },
+            {
+              "x": 1381333354,
+              "y": 98474.1315
+            },
+            {
+              "x": 1381333595,
+              "y": 98599.5368
+            },
+            {
+              "x": 1381333836,
+              "y": 98659.2536
+            },
+            {
+              "x": 1381334077,
+              "y": 98623.4235
+            },
+            {
+              "x": 1381334318,
+              "y": 98641.3386
+            },
+            {
+              "x": 1381334559,
+              "y": 98730.9138
+            },
+            {
+              "x": 1381334800,
+              "y": 98623.4235
+            },
+            {
+              "x": 1381335041,
+              "y": 98605.5085
+            },
+            {
+              "x": 1381335282,
+              "y": 98695.0837
+            },
+            {
+              "x": 1381335523,
+              "y": 98698.0695
+            },
+            {
+              "x": 1381335764,
+              "y": 98659.2536
+            },
+            {
+              "x": 1381336005,
+              "y": 98641.3386
+            },
+            {
+              "x": 1381336246,
+              "y": 98647.3103
+            },
+            {
+              "x": 1381336487,
+              "y": 98712.9987
+            },
+            {
+              "x": 1381336728,
+              "y": 98766.7439
+            },
+            {
+              "x": 1381336969,
+              "y": 98665.2253
+            },
+            {
+              "x": 1381337210,
+              "y": 98623.4235
+            },
+            {
+              "x": 1381337451,
+              "y": 98605.5085
+            },
+            {
+              "x": 1381337692,
+              "y": 98611.4802
+            },
+            {
+              "x": 1381337933,
+              "y": 98593.5651
+            },
+            {
+              "x": 1381338174,
+              "y": 98712.9987
+            },
+            {
+              "x": 1381338415,
+              "y": 98695.0837
+            },
+            {
+              "x": 1381338656,
+              "y": 98718.9704
+            },
+            {
+              "x": 1381338897,
+              "y": 98820.489
+            },
+            {
+              "x": 1381339138,
+              "y": 98927.9792
+            },
+            {
+              "x": 1381339379,
+              "y": 99002.6252
+            },
+            {
+              "x": 1381339620,
+              "y": 99065.3279
+            },
+            {
+              "x": 1381339861,
+              "y": 99104.1438
+            },
+            {
+              "x": 1381340102,
+              "y": 98993.6677
+            },
+            {
+              "x": 1381340343,
+              "y": 98999.6394
+            },
+            {
+              "x": 1381340584,
+              "y": 99038.4553
+            },
+            {
+              "x": 1381340825,
+              "y": 99059.3562
+            },
+            {
+              "x": 1381341066,
+              "y": 99026.512
+            },
+            {
+              "x": 1381341307,
+              "y": 99071.2996
+            },
+            {
+              "x": 1381341548,
+              "y": 99083.2429
+            },
+            {
+              "x": 1381341789,
+              "y": 98963.8093
+            },
+            {
+              "x": 1381342030,
+              "y": 99113.1013
+            },
+            {
+              "x": 1381342271,
+              "y": 99095.1863
+            },
+            {
+              "x": 1381342512,
+              "y": 99053.3845
+            },
+            {
+              "x": 1381342753,
+              "y": 99017.5544
+            },
+            {
+              "x": 1381342994,
+              "y": 99083.2429
+            },
+            {
+              "x": 1381343235,
+              "y": 99041.4412
+            },
+            {
+              "x": 1381343476,
+              "y": 99154.9031
+            },
+            {
+              "x": 1381343717,
+              "y": 99208.6482
+            },
+            {
+              "x": 1381343958,
+              "y": 99107.1296
+            },
+            {
+              "x": 1381344199,
+              "y": 99065.3279
+            },
+            {
+              "x": 1381344440,
+              "y": 99089.2146
+            },
+            {
+              "x": 1381344681,
+              "y": 99107.1296
+            },
+            {
+              "x": 1381344922,
+              "y": 99119.073
+            },
+            {
+              "x": 1381345163,
+              "y": 99238.5066
+            },
+            {
+              "x": 1381345404,
+              "y": 99214.6199
+            },
+            {
+              "x": 1381345645,
+              "y": 99166.8464
+            },
+            {
+              "x": 1381345886,
+              "y": 99196.7048
+            },
+            {
+              "x": 1381346127,
+              "y": 99160.8748
+            },
+            {
+              "x": 1381346368,
+              "y": 99119.073
+            },
+            {
+              "x": 1381346609,
+              "y": 99142.9597
+            },
+            {
+              "x": 1381346850,
+              "y": 99107.1296
+            },
+            {
+              "x": 1381347091,
+              "y": 99131.0164
+            },
+            {
+              "x": 1381347332,
+              "y": 99202.6765
+            },
+            {
+              "x": 1381347573,
+              "y": 99071.2996
+            },
+            {
+              "x": 1381347814,
+              "y": 99029.4978
+            },
+            {
+              "x": 1381348055,
+              "y": 98868.2624
+            },
+            {
+              "x": 1381348296,
+              "y": 98898.1208
+            },
+            {
+              "x": 1381348537,
+              "y": 98969.781
+            },
+            {
+              "x": 1381348778,
+              "y": 98874.2341
+            },
+            {
+              "x": 1381348800,
+              "y": 98886.1775
+            },
+            {
+              "x": 1381377600,
+              "y": 98886.1775
+            },
+            {
+              "x": 1381411801,
+              "y": 99913.3065
+            },
+            {
+              "x": 1381412042,
+              "y": 99996.91
+            },
+            {
+              "x": 1381412283,
+              "y": 100074.5418
+            },
+            {
+              "x": 1381412524,
+              "y": 100170.0887
+            },
+            {
+              "x": 1381412765,
+              "y": 100110.3719
+            },
+            {
+              "x": 1381413006,
+              "y": 100086.4852
+            },
+            {
+              "x": 1381413247,
+              "y": 100170.0887
+            },
+            {
+              "x": 1381413488,
+              "y": 100193.9754
+            },
+            {
+              "x": 1381413729,
+              "y": 100176.0604
+            },
+            {
+              "x": 1381413970,
+              "y": 100229.8055
+            },
+            {
+              "x": 1381414211,
+              "y": 100211.8905
+            },
+            {
+              "x": 1381414452,
+              "y": 100143.2162
+            },
+            {
+              "x": 1381414693,
+              "y": 100143.2162
+            },
+            {
+              "x": 1381414934,
+              "y": 100164.117
+            },
+            {
+              "x": 1381415175,
+              "y": 100188.0038
+            },
+            {
+              "x": 1381415416,
+              "y": 100253.6923
+            },
+            {
+              "x": 1381415657,
+              "y": 100223.8338
+            },
+            {
+              "x": 1381415898,
+              "y": 100331.3241
+            },
+            {
+              "x": 1381416139,
+              "y": 100349.2391
+            },
+            {
+              "x": 1381416380,
+              "y": 100399.9984
+            },
+            {
+              "x": 1381416621,
+              "y": 100367.1542
+            },
+            {
+              "x": 1381416862,
+              "y": 100379.0975
+            },
+            {
+              "x": 1381417103,
+              "y": 100289.5223
+            },
+            {
+              "x": 1381417344,
+              "y": 100205.9188
+            },
+            {
+              "x": 1381417585,
+              "y": 100146.202
+            },
+            {
+              "x": 1381417826,
+              "y": 100134.2586
+            },
+            {
+              "x": 1381418067,
+              "y": 100182.0321
+            },
+            {
+              "x": 1381418308,
+              "y": 100211.8905
+            },
+            {
+              "x": 1381418549,
+              "y": 100205.9188
+            },
+            {
+              "x": 1381418790,
+              "y": 100241.7489
+            },
+            {
+              "x": 1381419031,
+              "y": 100331.3241
+            },
+            {
+              "x": 1381419272,
+              "y": 100373.1259
+            },
+            {
+              "x": 1381419513,
+              "y": 100474.6444
+            },
+            {
+              "x": 1381419754,
+              "y": 100468.6727
+            },
+            {
+              "x": 1381419995,
+              "y": 100528.3895
+            },
+            {
+              "x": 1381420236,
+              "y": 100540.3329
+            },
+            {
+              "x": 1381420477,
+              "y": 100564.2196
+            },
+            {
+              "x": 1381420718,
+              "y": 100564.2196
+            },
+            {
+              "x": 1381420959,
+              "y": 100558.2479
+            },
+            {
+              "x": 1381421200,
+              "y": 100579.1488
+            },
+            {
+              "x": 1381421441,
+              "y": 100540.3329
+            },
+            {
+              "x": 1381421682,
+              "y": 100540.3329
+            },
+            {
+              "x": 1381421923,
+              "y": 100573.1771
+            },
+            {
+              "x": 1381422164,
+              "y": 100528.3895
+            },
+            {
+              "x": 1381422405,
+              "y": 100546.3046
+            },
+            {
+              "x": 1381422646,
+              "y": 100552.2763
+            },
+            {
+              "x": 1381422887,
+              "y": 100600.0497
+            },
+            {
+              "x": 1381423128,
+              "y": 100600.0497
+            },
+            {
+              "x": 1381423369,
+              "y": 100570.1913
+            },
+            {
+              "x": 1381423610,
+              "y": 100600.0497
+            },
+            {
+              "x": 1381423851,
+              "y": 100576.163
+            },
+            {
+              "x": 1381424092,
+              "y": 100594.078
+            },
+            {
+              "x": 1381424333,
+              "y": 100570.1913
+            },
+            {
+              "x": 1381424574,
+              "y": 100525.4037
+            },
+            {
+              "x": 1381424815,
+              "y": 100498.5311
+            },
+            {
+              "x": 1381425056,
+              "y": 100510.4745
+            },
+            {
+              "x": 1381425297,
+              "y": 100546.3046
+            },
+            {
+              "x": 1381425538,
+              "y": 100510.4745
+            },
+            {
+              "x": 1381425779,
+              "y": 100492.5595
+            },
+            {
+              "x": 1381426020,
+              "y": 100471.6586
+            },
+            {
+              "x": 1381426261,
+              "y": 100462.7011
+            },
+            {
+              "x": 1381426502,
+              "y": 100492.5595
+            },
+            {
+              "x": 1381426743,
+              "y": 100486.5878
+            },
+            {
+              "x": 1381426984,
+              "y": 100504.5028
+            },
+            {
+              "x": 1381427225,
+              "y": 100510.4745
+            },
+            {
+              "x": 1381427466,
+              "y": 100510.4745
+            },
+            {
+              "x": 1381427707,
+              "y": 100570.1913
+            },
+            {
+              "x": 1381427948,
+              "y": 100576.163
+            },
+            {
+              "x": 1381428189,
+              "y": 100570.1913
+            },
+            {
+              "x": 1381428430,
+              "y": 100486.5878
+            },
+            {
+              "x": 1381428671,
+              "y": 100426.871
+            },
+            {
+              "x": 1381428912,
+              "y": 100474.6444
+            },
+            {
+              "x": 1381429153,
+              "y": 100432.8427
+            },
+            {
+              "x": 1381429394,
+              "y": 100474.6444
+            },
+            {
+              "x": 1381429635,
+              "y": 100492.5595
+            },
+            {
+              "x": 1381429876,
+              "y": 100456.7294
+            },
+            {
+              "x": 1381430117,
+              "y": 100492.5595
+            },
+            {
+              "x": 1381430358,
+              "y": 100474.6444
+            },
+            {
+              "x": 1381430599,
+              "y": 100528.3895
+            },
+            {
+              "x": 1381430840,
+              "y": 100534.3612
+            },
+            {
+              "x": 1381431081,
+              "y": 100498.5311
+            },
+            {
+              "x": 1381431322,
+              "y": 100549.2904
+            },
+            {
+              "x": 1381431563,
+              "y": 100510.4745
+            },
+            {
+              "x": 1381431804,
+              "y": 100647.8231
+            },
+            {
+              "x": 1381432045,
+              "y": 100826.9736
+            },
+            {
+              "x": 1381432286,
+              "y": 100892.662
+            },
+            {
+              "x": 1381432527,
+              "y": 101024.039
+            },
+            {
+              "x": 1381432768,
+              "y": 100940.4355
+            },
+            {
+              "x": 1381433009,
+              "y": 100916.5488
+            },
+            {
+              "x": 1381433250,
+              "y": 100946.4072
+            },
+            {
+              "x": 1381433491,
+              "y": 100946.4072
+            },
+            {
+              "x": 1381433732,
+              "y": 100892.662
+            },
+            {
+              "x": 1381433973,
+              "y": 100898.6337
+            },
+            {
+              "x": 1381434214,
+              "y": 100898.6337
+            },
+            {
+              "x": 1381434455,
+              "y": 100874.747
+            },
+            {
+              "x": 1381434696,
+              "y": 100904.6054
+            },
+            {
+              "x": 1381434937,
+              "y": 100880.7187
+            },
+            {
+              "x": 1381435178,
+              "y": 101030.0107
+            },
+            {
+              "x": 1381435200,
+              "y": 101024.039
+            },
+            {
+              "x": 1381464000,
+              "y": 101024.039
+            },
+            {
+              "x": 1381498201,
+              "y": 100880.7187
+            },
+            {
+              "x": 1381498442,
+              "y": 100850.8603
+            },
+            {
+              "x": 1381498683,
+              "y": 100928.4921
+            },
+            {
+              "x": 1381498924,
+              "y": 100964.3222
+            },
+            {
+              "x": 1381499165,
+              "y": 101053.8974
+            },
+            {
+              "x": 1381499406,
+              "y": 101077.7841
+            },
+            {
+              "x": 1381499647,
+              "y": 101041.954
+            },
+            {
+              "x": 1381499888,
+              "y": 101185.2744
+            },
+            {
+              "x": 1381500129,
+              "y": 101274.8496
+            },
+            {
+              "x": 1381500370,
+              "y": 101239.0195
+            },
+            {
+              "x": 1381500611,
+              "y": 101268.8779
+            },
+            {
+              "x": 1381500852,
+              "y": 101244.9912
+            },
+            {
+              "x": 1381501093,
+              "y": 101227.0761
+            },
+            {
+              "x": 1381501334,
+              "y": 101149.4443
+            },
+            {
+              "x": 1381501575,
+              "y": 101179.3027
+            },
+            {
+              "x": 1381501816,
+              "y": 101197.2177
+            },
+            {
+              "x": 1381502057,
+              "y": 101143.4726
+            },
+            {
+              "x": 1381502298,
+              "y": 101137.5009
+            },
+            {
+              "x": 1381502539,
+              "y": 101077.7841
+            },
+            {
+              "x": 1381502780,
+              "y": 101077.7841
+            },
+            {
+              "x": 1381503021,
+              "y": 100988.2089
+            },
+            {
+              "x": 1381503262,
+              "y": 101006.124
+            },
+            {
+              "x": 1381503503,
+              "y": 101083.7558
+            },
+            {
+              "x": 1381503744,
+              "y": 101089.7275
+            },
+            {
+              "x": 1381503985,
+              "y": 101107.6425
+            },
+            {
+              "x": 1381504226,
+              "y": 101167.3593
+            },
+            {
+              "x": 1381504467,
+              "y": 101149.4443
+            },
+            {
+              "x": 1381504708,
+              "y": 101083.7558
+            },
+            {
+              "x": 1381504949,
+              "y": 101101.6708
+            },
+            {
+              "x": 1381505190,
+              "y": 101149.4443
+            },
+            {
+              "x": 1381505431,
+              "y": 101131.5292
+            },
+            {
+              "x": 1381505672,
+              "y": 101239.0195
+            },
+            {
+              "x": 1381505913,
+              "y": 101334.5664
+            },
+            {
+              "x": 1381506154,
+              "y": 101394.2832
+            },
+            {
+              "x": 1381506395,
+              "y": 101385.3257
+            },
+            {
+              "x": 1381506636,
+              "y": 101418.1699
+            },
+            {
+              "x": 1381506877,
+              "y": 101406.2265
+            },
+            {
+              "x": 1381507118,
+              "y": 101465.9433
+            },
+            {
+              "x": 1381507359,
+              "y": 101519.6885
+            },
+            {
+              "x": 1381507600,
+              "y": 101519.6885
+            },
+            {
+              "x": 1381507841,
+              "y": 101555.5185
+            },
+            {
+              "x": 1381508082,
+              "y": 101573.4336
+            },
+            {
+              "x": 1381508323,
+              "y": 101591.3486
+            },
+            {
+              "x": 1381508564,
+              "y": 101639.1221
+            },
+            {
+              "x": 1381508805,
+              "y": 101645.0937
+            },
+            {
+              "x": 1381509046,
+              "y": 101603.292
+            },
+            {
+              "x": 1381509287,
+              "y": 101573.4336
+            },
+            {
+              "x": 1381509528,
+              "y": 101591.3486
+            },
+            {
+              "x": 1381509769,
+              "y": 101621.207
+            },
+            {
+              "x": 1381510010,
+              "y": 101621.207
+            },
+            {
+              "x": 1381510251,
+              "y": 101603.292
+            },
+            {
+              "x": 1381510492,
+              "y": 101609.2637
+            },
+            {
+              "x": 1381510733,
+              "y": 101639.1221
+            },
+            {
+              "x": 1381510974,
+              "y": 101585.3769
+            },
+            {
+              "x": 1381511215,
+              "y": 101645.0937
+            },
+            {
+              "x": 1381511456,
+              "y": 101704.8105
+            },
+            {
+              "x": 1381511697,
+              "y": 101663.0088
+            },
+            {
+              "x": 1381511938,
+              "y": 101525.6601
+            },
+            {
+              "x": 1381512179,
+              "y": 101519.6885
+            },
+            {
+              "x": 1381512420,
+              "y": 101561.4902
+            },
+            {
+              "x": 1381512661,
+              "y": 101555.5185
+            },
+            {
+              "x": 1381512902,
+              "y": 101561.4902
+            },
+            {
+              "x": 1381513143,
+              "y": 101556.1157
+            },
+            {
+              "x": 1381513384,
+              "y": 101501.7734
+            },
+            {
+              "x": 1381513625,
+              "y": 101561.4902
+            },
+            {
+              "x": 1381513866,
+              "y": 101519.6885
+            },
+            {
+              "x": 1381514107,
+              "y": 101531.6318
+            },
+            {
+              "x": 1381514348,
+              "y": 101555.5185
+            },
+            {
+              "x": 1381514589,
+              "y": 101579.4053
+            },
+            {
+              "x": 1381514830,
+              "y": 101633.1504
+            },
+            {
+              "x": 1381515071,
+              "y": 101621.207
+            },
+            {
+              "x": 1381515312,
+              "y": 101597.3203
+            },
+            {
+              "x": 1381515553,
+              "y": 101603.292
+            },
+            {
+              "x": 1381515794,
+              "y": 101633.1504
+            },
+            {
+              "x": 1381516035,
+              "y": 101612.2495
+            },
+            {
+              "x": 1381516276,
+              "y": 101591.3486
+            },
+            {
+              "x": 1381516517,
+              "y": 101588.3628
+            },
+            {
+              "x": 1381516758,
+              "y": 101555.5185
+            },
+            {
+              "x": 1381516999,
+              "y": 101561.4902
+            },
+            {
+              "x": 1381517240,
+              "y": 101579.4053
+            },
+            {
+              "x": 1381517481,
+              "y": 101561.4902
+            },
+            {
+              "x": 1381517722,
+              "y": 101549.5469
+            },
+            {
+              "x": 1381517963,
+              "y": 101543.5752
+            },
+            {
+              "x": 1381518204,
+              "y": 101483.8584
+            },
+            {
+              "x": 1381518445,
+              "y": 101501.7734
+            },
+            {
+              "x": 1381518686,
+              "y": 101531.6318
+            },
+            {
+              "x": 1381518927,
+              "y": 101439.0708
+            },
+            {
+              "x": 1381519168,
+              "y": 101448.0283
+            },
+            {
+              "x": 1381519409,
+              "y": 101483.8584
+            },
+            {
+              "x": 1381519650,
+              "y": 101495.8017
+            },
+            {
+              "x": 1381519891,
+              "y": 101596.7231
+            },
+            {
+              "x": 1381520132,
+              "y": 101537.6035
+            },
+            {
+              "x": 1381520373,
+              "y": 101486.8442
+            },
+            {
+              "x": 1381520614,
+              "y": 101483.8584
+            },
+            {
+              "x": 1381520855,
+              "y": 101465.9433
+            },
+            {
+              "x": 1381521096,
+              "y": 101418.1699
+            },
+            {
+              "x": 1381521337,
+              "y": 101513.7168
+            },
+            {
+              "x": 1381521578,
+              "y": 101663.0088
+            },
+            {
+              "x": 1381521600,
+              "y": 101668.9805
+            },
+            {
+              "x": 1381521600,
+              "y": 101668.9805
+            }
+          ],
+          "SeriesType": 2,
+          "Color": "",
+          "ScatterMarkerSymbol": "none"
+        },
+        "Daily Performance": {
+          "Name": "Daily Performance",
+          "Unit": "%",
+          "Index": 1,
+          "Values": [
+            {
+              "x": 1381104000,
+              "y": 0.00288168
+            },
+            {
+              "x": 1381190400,
+              "y": -1.176387
+            },
+            {
+              "x": 1381276800,
+              "y": 0.06042592
+            },
+            {
+              "x": 1381363200,
+              "y": 2.161942
+            },
+            {
+              "x": 1381521600,
+              "y": 0.638404
+            }
+          ],
+          "SeriesType": 3,
+          "Color": "",
+          "ScatterMarkerSymbol": "none"
+        }
+      }
+    },
+    "Benchmark": {
+      "Name": "Benchmark",
+      "ChartType": 0,
+      "Series": {
+        "Benchmark": {
+          "Name": "Benchmark",
+          "Unit": "$",
+          "Index": 0,
+          "Values": [
+            {
+              "x": 1381104000,
+              "y": 161.8055
+            },
+            {
+              "x": 1381190400,
+              "y": 159.9019
+            },
+            {
+              "x": 1381276800,
+              "y": 159.9985
+            },
+            {
+              "x": 1381363200,
+              "y": 163.4578
+            },
+            {
+              "x": 1381521600,
+              "y": 164.5014
+            }
+          ],
+          "SeriesType": 0,
+          "Color": "",
+          "ScatterMarkerSymbol": "none"
+        }
+      }
+    }
+  },
+  "Orders": {
+    "1": {
+      "DurationValue": "9999-12-31T23:59:59.9999999",
+      "Type": 0,
+      "Id": 1,
+      "ContingentId": 0,
+      "BrokerId": [
+        "1"
+      ],
+      "Symbol": {
+        "$type": "QuantConnect.Symbol, QuantConnect.Common",
+        "Value": "SPY",
+        "ID": "SPY R735QTJ8XC9X",
+        "Permtick": "SPY"
+      },
+      "Price": 161.79581527200,
+      "PriceCurrency": "USD",
+      "Time": "2013-10-07T13:30:01Z",
+      "Quantity": 618,
+      "Status": 3,
+      "Duration": 0,
+      "Tag": "",
+      "SecurityType": 1,
+      "Direction": 0,
+      "AbsoluteQuantity": 618.0,
+      "Value": 99989.81383809600
+    }
+  },
+  "ProfitLoss": {},
+  "Statistics": {
+    "Total Trades": "1",
+    "Average Win": "0%",
+    "Average Loss": "0%",
+    "Compounding Annual Return": "264.956%",
+    "Drawdown": "2.200%",
+    "Expectancy": "0",
+    "Net Profit": "0%",
+    "Sharpe Ratio": "4.411",
+    "Loss Rate": "0%",
+    "Win Rate": "0%",
+    "Profit-Loss Ratio": "0",
+    "Alpha": "0.002",
+    "Beta": "1",
+    "Annual Standard Deviation": "0.193",
+    "Annual Variance": "0.037",
+    "Information Ratio": "6.816",
+    "Tracking Error": "0",
+    "Treynor Ratio": "0.851",
+    "Total Fees": "$3.09"
+  },
+  "RuntimeStatistics": {
+    "Unrealized": "$1,668.98",
+    "Fees": "-$3.09",
+    "Net Profit": "$0.00",
+    "Return": "1.67 %",
+    "Equity": "$101,668.98"
+  },
+  "RollingWindow": {
+    "M1_20131011": {
+      "TradeStatistics": {
+        "StartDateTime": null,
+        "EndDateTime": null,
+        "TotalNumberOfTrades": 0,
+        "NumberOfWinningTrades": 0,
+        "NumberOfLosingTrades": 0,
+        "TotalProfitLoss": 0.0,
+        "TotalProfit": 0.0,
+        "TotalLoss": 0.0,
+        "LargestProfit": 0.0,
+        "LargestLoss": 0.0,
+        "AverageProfitLoss": 0.0,
+        "AverageProfit": 0.0,
+        "AverageLoss": 0.0,
+        "AverageTradeDuration": "00:00:00",
+        "AverageWinningTradeDuration": "00:00:00",
+        "AverageLosingTradeDuration": "00:00:00",
+        "MaxConsecutiveWinningTrades": 0,
+        "MaxConsecutiveLosingTrades": 0,
+        "ProfitLossRatio": 0.0,
+        "WinLossRatio": 0.0,
+        "WinRate": 0.0,
+        "LossRate": 0.0,
+        "AverageMAE": 0.0,
+        "AverageMFE": 0.0,
+        "LargestMAE": 0.0,
+        "LargestMFE": 0.0,
+        "MaximumClosedTradeDrawdown": 0.0,
+        "MaximumIntraTradeDrawdown": 0.0,
+        "ProfitLossStandardDeviation": 0.0,
+        "ProfitLossDownsideDeviation": 0.0,
+        "ProfitFactor": 0.0,
+        "SharpeRatio": 0.0,
+        "SortinoRatio": 0.0,
+        "ProfitToMaxDrawdownRatio": 0.0,
+        "MaximumEndTradeDrawdown": 0.0,
+        "AverageEndTradeDrawdown": 0.0,
+        "MaximumDrawdownDuration": "00:00:00",
+        "TotalFees": 0.0
+      },
+      "PortfolioStatistics": {
+        "AverageWinRate": 0.0,
+        "AverageLossRate": 0.0,
+        "ProfitLossRatio": 0.0,
+        "WinRate": 0.0,
+        "LossRate": 0.0,
+        "Expectancy": 0.0,
+        "CompoundingAnnualReturn": 2.64956362416675,
+        "Drawdown": 0.022,
+        "TotalNetProfit": 0.0,
+        "SharpeRatio": 4.4109088379337962404345509085,
+        "Alpha": 0.0016062808331789720432993152,
+        "Beta": 0.999766514514026,
+        "AnnualStandardDeviation": 0.192790737157548,
+        "AnnualVariance": 0.037168268333750568,
+        "InformationRatio": 6.8164718125993459906993003377,
+        "TrackingError": 0.000206566929759673,
+        "TreynorRatio": 0.8505809647099055260356780684
+      },
+      "ClosedTrades": []
+    },
+    "M3_20131011": {
+      "TradeStatistics": {
+        "StartDateTime": null,
+        "EndDateTime": null,
+        "TotalNumberOfTrades": 0,
+        "NumberOfWinningTrades": 0,
+        "NumberOfLosingTrades": 0,
+        "TotalProfitLoss": 0.0,
+        "TotalProfit": 0.0,
+        "TotalLoss": 0.0,
+        "LargestProfit": 0.0,
+        "LargestLoss": 0.0,
+        "AverageProfitLoss": 0.0,
+        "AverageProfit": 0.0,
+        "AverageLoss": 0.0,
+        "AverageTradeDuration": "00:00:00",
+        "AverageWinningTradeDuration": "00:00:00",
+        "AverageLosingTradeDuration": "00:00:00",
+        "MaxConsecutiveWinningTrades": 0,
+        "MaxConsecutiveLosingTrades": 0,
+        "ProfitLossRatio": 0.0,
+        "WinLossRatio": 0.0,
+        "WinRate": 0.0,
+        "LossRate": 0.0,
+        "AverageMAE": 0.0,
+        "AverageMFE": 0.0,
+        "LargestMAE": 0.0,
+        "LargestMFE": 0.0,
+        "MaximumClosedTradeDrawdown": 0.0,
+        "MaximumIntraTradeDrawdown": 0.0,
+        "ProfitLossStandardDeviation": 0.0,
+        "ProfitLossDownsideDeviation": 0.0,
+        "ProfitFactor": 0.0,
+        "SharpeRatio": 0.0,
+        "SortinoRatio": 0.0,
+        "ProfitToMaxDrawdownRatio": 0.0,
+        "MaximumEndTradeDrawdown": 0.0,
+        "AverageEndTradeDrawdown": 0.0,
+        "MaximumDrawdownDuration": "00:00:00",
+        "TotalFees": 0.0
+      },
+      "PortfolioStatistics": {
+        "AverageWinRate": 0.0,
+        "AverageLossRate": 0.0,
+        "ProfitLossRatio": 0.0,
+        "WinRate": 0.0,
+        "LossRate": 0.0,
+        "Expectancy": 0.0,
+        "CompoundingAnnualReturn": 2.64956362416675,
+        "Drawdown": 0.022,
+        "TotalNetProfit": 0.0,
+        "SharpeRatio": 4.4109088379337962404345509085,
+        "Alpha": 0.0016062808331789720432993152,
+        "Beta": 0.999766514514026,
+        "AnnualStandardDeviation": 0.192790737157548,
+        "AnnualVariance": 0.037168268333750568,
+        "InformationRatio": 6.8164718125993459906993003377,
+        "TrackingError": 0.000206566929759673,
+        "TreynorRatio": 0.8505809647099055260356780684
+      },
+      "ClosedTrades": []
+    },
+    "M6_20131011": {
+      "TradeStatistics": {
+        "StartDateTime": null,
+        "EndDateTime": null,
+        "TotalNumberOfTrades": 0,
+        "NumberOfWinningTrades": 0,
+        "NumberOfLosingTrades": 0,
+        "TotalProfitLoss": 0.0,
+        "TotalProfit": 0.0,
+        "TotalLoss": 0.0,
+        "LargestProfit": 0.0,
+        "LargestLoss": 0.0,
+        "AverageProfitLoss": 0.0,
+        "AverageProfit": 0.0,
+        "AverageLoss": 0.0,
+        "AverageTradeDuration": "00:00:00",
+        "AverageWinningTradeDuration": "00:00:00",
+        "AverageLosingTradeDuration": "00:00:00",
+        "MaxConsecutiveWinningTrades": 0,
+        "MaxConsecutiveLosingTrades": 0,
+        "ProfitLossRatio": 0.0,
+        "WinLossRatio": 0.0,
+        "WinRate": 0.0,
+        "LossRate": 0.0,
+        "AverageMAE": 0.0,
+        "AverageMFE": 0.0,
+        "LargestMAE": 0.0,
+        "LargestMFE": 0.0,
+        "MaximumClosedTradeDrawdown": 0.0,
+        "MaximumIntraTradeDrawdown": 0.0,
+        "ProfitLossStandardDeviation": 0.0,
+        "ProfitLossDownsideDeviation": 0.0,
+        "ProfitFactor": 0.0,
+        "SharpeRatio": 0.0,
+        "SortinoRatio": 0.0,
+        "ProfitToMaxDrawdownRatio": 0.0,
+        "MaximumEndTradeDrawdown": 0.0,
+        "AverageEndTradeDrawdown": 0.0,
+        "MaximumDrawdownDuration": "00:00:00",
+        "TotalFees": 0.0
+      },
+      "PortfolioStatistics": {
+        "AverageWinRate": 0.0,
+        "AverageLossRate": 0.0,
+        "ProfitLossRatio": 0.0,
+        "WinRate": 0.0,
+        "LossRate": 0.0,
+        "Expectancy": 0.0,
+        "CompoundingAnnualReturn": 2.64956362416675,
+        "Drawdown": 0.022,
+        "TotalNetProfit": 0.0,
+        "SharpeRatio": 4.4109088379337962404345509085,
+        "Alpha": 0.0016062808331789720432993152,
+        "Beta": 0.999766514514026,
+        "AnnualStandardDeviation": 0.192790737157548,
+        "AnnualVariance": 0.037168268333750568,
+        "InformationRatio": 6.8164718125993459906993003377,
+        "TrackingError": 0.000206566929759673,
+        "TreynorRatio": 0.8505809647099055260356780684
+      },
+      "ClosedTrades": []
+    },
+    "M12_20131011": {
+      "TradeStatistics": {
+        "StartDateTime": null,
+        "EndDateTime": null,
+        "TotalNumberOfTrades": 0,
+        "NumberOfWinningTrades": 0,
+        "NumberOfLosingTrades": 0,
+        "TotalProfitLoss": 0.0,
+        "TotalProfit": 0.0,
+        "TotalLoss": 0.0,
+        "LargestProfit": 0.0,
+        "LargestLoss": 0.0,
+        "AverageProfitLoss": 0.0,
+        "AverageProfit": 0.0,
+        "AverageLoss": 0.0,
+        "AverageTradeDuration": "00:00:00",
+        "AverageWinningTradeDuration": "00:00:00",
+        "AverageLosingTradeDuration": "00:00:00",
+        "MaxConsecutiveWinningTrades": 0,
+        "MaxConsecutiveLosingTrades": 0,
+        "ProfitLossRatio": 0.0,
+        "WinLossRatio": 0.0,
+        "WinRate": 0.0,
+        "LossRate": 0.0,
+        "AverageMAE": 0.0,
+        "AverageMFE": 0.0,
+        "LargestMAE": 0.0,
+        "LargestMFE": 0.0,
+        "MaximumClosedTradeDrawdown": 0.0,
+        "MaximumIntraTradeDrawdown": 0.0,
+        "ProfitLossStandardDeviation": 0.0,
+        "ProfitLossDownsideDeviation": 0.0,
+        "ProfitFactor": 0.0,
+        "SharpeRatio": 0.0,
+        "SortinoRatio": 0.0,
+        "ProfitToMaxDrawdownRatio": 0.0,
+        "MaximumEndTradeDrawdown": 0.0,
+        "AverageEndTradeDrawdown": 0.0,
+        "MaximumDrawdownDuration": "00:00:00",
+        "TotalFees": 0.0
+      },
+      "PortfolioStatistics": {
+        "AverageWinRate": 0.0,
+        "AverageLossRate": 0.0,
+        "ProfitLossRatio": 0.0,
+        "WinRate": 0.0,
+        "LossRate": 0.0,
+        "Expectancy": 0.0,
+        "CompoundingAnnualReturn": 2.64956362416675,
+        "Drawdown": 0.022,
+        "TotalNetProfit": 0.0,
+        "SharpeRatio": 4.4109088379337962404345509085,
+        "Alpha": 0.0016062808331789720432993152,
+        "Beta": 0.999766514514026,
+        "AnnualStandardDeviation": 0.192790737157548,
+        "AnnualVariance": 0.037168268333750568,
+        "InformationRatio": 6.8164718125993459906993003377,
+        "TrackingError": 0.000206566929759673,
+        "TreynorRatio": 0.8505809647099055260356780684
+      },
+      "ClosedTrades": []
+    }
+  },
+  "TotalPerformance": {
+    "TradeStatistics": {
+      "StartDateTime": null,
+      "EndDateTime": null,
+      "TotalNumberOfTrades": 0,
+      "NumberOfWinningTrades": 0,
+      "NumberOfLosingTrades": 0,
+      "TotalProfitLoss": 0.0,
+      "TotalProfit": 0.0,
+      "TotalLoss": 0.0,
+      "LargestProfit": 0.0,
+      "LargestLoss": 0.0,
+      "AverageProfitLoss": 0.0,
+      "AverageProfit": 0.0,
+      "AverageLoss": 0.0,
+      "AverageTradeDuration": "00:00:00",
+      "AverageWinningTradeDuration": "00:00:00",
+      "AverageLosingTradeDuration": "00:00:00",
+      "MaxConsecutiveWinningTrades": 0,
+      "MaxConsecutiveLosingTrades": 0,
+      "ProfitLossRatio": 0.0,
+      "WinLossRatio": 0.0,
+      "WinRate": 0.0,
+      "LossRate": 0.0,
+      "AverageMAE": 0.0,
+      "AverageMFE": 0.0,
+      "LargestMAE": 0.0,
+      "LargestMFE": 0.0,
+      "MaximumClosedTradeDrawdown": 0.0,
+      "MaximumIntraTradeDrawdown": 0.0,
+      "ProfitLossStandardDeviation": 0.0,
+      "ProfitLossDownsideDeviation": 0.0,
+      "ProfitFactor": 0.0,
+      "SharpeRatio": 0.0,
+      "SortinoRatio": 0.0,
+      "ProfitToMaxDrawdownRatio": 0.0,
+      "MaximumEndTradeDrawdown": 0.0,
+      "AverageEndTradeDrawdown": 0.0,
+      "MaximumDrawdownDuration": "00:00:00",
+      "TotalFees": 0.0
+    },
+    "PortfolioStatistics": {
+      "AverageWinRate": 0.0,
+      "AverageLossRate": 0.0,
+      "ProfitLossRatio": 0.0,
+      "WinRate": 0.0,
+      "LossRate": 0.0,
+      "Expectancy": 0.0,
+      "CompoundingAnnualReturn": 2.64956362416675,
+      "Drawdown": 0.022,
+      "TotalNetProfit": 0.0,
+      "SharpeRatio": 4.4109088379337962404345509085,
+      "Alpha": 0.0016062808331789720432993152,
+      "Beta": 0.999766514514026,
+      "AnnualStandardDeviation": 0.192790737157548,
+      "AnnualVariance": 0.037168268333750568,
+      "InformationRatio": 6.8164718125993459906993003377,
+      "TrackingError": 0.000206566929759673,
+      "TreynorRatio": 0.8505809647099055260356780684
+    },
+    "ClosedTrades": []
+  }
+}
+2017-02-02T18:30:52.6580020Z TRACE:: BacktestingResultHandler.SendAnalysisResult(): Processed final packet
+2017-02-02T18:30:52.6586850Z TRACE:: FileSystemDataFeed.Exit(): Exit triggered.
+2017-02-02T18:30:52.6589370Z TRACE:: BrokerageTransactionHandler.Run(): Ending Thread...
+2017-02-02T18:30:52.6595670Z TRACE:: StateCheck.Ping.Run(): Exited thread.
+2017-02-02T18:30:52.6605110Z TRACE:: FileSystemDataFeed.Run(): Ending Thread... 
+2017-02-02T18:30:52.6692080Z TRACE:: Debug: Your log was successfully created and can be retrieved from: /lean/TestProject/bin/Debug/log.txt
+2017-02-02T18:30:52.6693510Z TRACE:: BacktestingResultHandler.Run(): Ending Thread...
+2017-02-02T18:30:52.7598380Z TRACE:: Waiting for threads to exit...
+2017-02-02T18:30:52.7601750Z TRACE:: Engine.Run(): Disconnecting from brokerage...
+2017-02-02T18:30:52.7603370Z TRACE:: Engine.Run(): Disposing of setup handler...
+2017-02-02T18:30:52.7604850Z TRACE:: Engine.Main(): Analysis Completed and Results Posted.
+2017-02-02T18:30:52.7605870Z TRACE:: FileSystemDataFeed.Exit(): Exit triggered.
+2017-02-02T18:30:52.7606740Z TRACE:: Engine.Main(): Packet removed from queue: BasicTemplateAlgorithm

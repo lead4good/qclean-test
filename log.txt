@@ -1,0 +1,6 @@
+2017-02-02T16:31:07.0154890Z TRACE:: Config.Get(): Configuration key not found. Key: data-directory - Using default value: ../../../Data/
+2017-02-02T16:31:07.0160470Z TRACE:: Config.Get(): Configuration key not found. Key: version-id - Using default value: 
+2017-02-02T16:31:07.0161220Z TRACE:: Engine.Main(): LEAN ALGORITHMIC TRADING ENGINE v2.2.0.2 Mode: DEBUG (64bit)
+2017-02-02T16:31:07.0161880Z TRACE:: Engine.Main(): Started 16:31
+2017-02-02T16:31:07.0196580Z TRACE:: Engine.Main(): Memory 145Mb-App  28Mb-Used  7887Mb-Total
+2017-02-02T16:31:07.0239940Z TRACE:: Config.GetValue(): job-project-id - Using default value: 0
