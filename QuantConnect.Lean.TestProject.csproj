@@ -146,6 +146,10 @@
       <Project>{ac9a142c-b485-44d7-91ff-015c22c43d05}</Project>
       <Name>QuantConnect.ToolBox</Name>
     </ProjectReference>
+    <ProjectReference Include="Algorithm\QuantConnect.Lean.TestProject.Algorithm.csproj">
+      <Project>{ac9a142c-b485-44d7-91ff-015c22c43d05}</Project>
+      <Name>QuantConnect.Lean.TestProject.Algorithm</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

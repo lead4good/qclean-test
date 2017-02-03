@@ -29,10 +29,13 @@ using QuantConnect.Logging;
 using QuantConnect.Packets;
 using QuantConnect.Util;
 using QuantConnect.Notifications;
+using QuantConnect.Data;
+using QuantConnect.Algorithm;
 using Newtonsoft.Json;
 
 namespace QuantConnect.Lean.TestProject
 {
+
     public class Program
     {
 
@@ -40,10 +43,13 @@ namespace QuantConnect.Lean.TestProject
 
 	static void Main(string[] args)
         {
+		Config.Set("algorithm-location", "QuantConnect.Lean.TestProject.Algorithm.dll");
+		Config.Set("algorithm-type-name", "QuantConnect.Lean.TestProject.Algorithm.BasicTemplateAlgorithm");
+
 		LaunchLean();
 
-		var lines = _resultsHandler.FinalStatistics.Select(kvp => kvp.Key + ": " + kvp.Value.ToString());
-		Log.Trace(string.Join(Environment.NewLine, lines));
+		//var lines = _resultsHandler.FinalStatistics.Select(kvp => kvp.Key + ": " + kvp.Value.ToString());
+		//Log.Trace(string.Join(Environment.NewLine, lines));
 
 	/*	var sharpe = -10m;
 		var ratio = _resultsHandler.FinalStatistics["Sharpe Ratio"];
@@ -77,6 +83,7 @@ namespace QuantConnect.Lean.TestProject
 */
 //	    Config.Set("result-handler", "BacktestingResultHandler");
 	    Config.Set("messaging-handler", "QuantConnect.Lean.TestProject.Messaging");
+	    
 
             var systemHandlers = LeanEngineSystemHandlers.FromConfiguration(Composer.Instance);
             systemHandlers.Initialize();
